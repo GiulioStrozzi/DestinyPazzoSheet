@@ -1,0 +1,442 @@
+{
+  "resources": [
+    {
+      "id": "fortified",
+      "name": "Fortified",
+      "path": "resources/armor_fortified_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000033"
+    },
+    {
+      "id": "generalist_shell",
+      "name": "Generalist Shell",
+      "path": "resources/armor_generalist_shell_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000040"
+    },
+    {
+      "id": "half_plast",
+      "name": "Half-plast",
+      "path": "resources/armor_half_plast_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000027"
+    },
+    {
+      "id": "leather",
+      "name": "Leather",
+      "path": "resources/armor_leather_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000006"
+    },
+    {
+      "id": "makeshift",
+      "name": "Makeshift",
+      "path": "resources/armor_makeshift_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000012"
+    },
+    {
+      "id": "no_shell",
+      "name": "No Shell",
+      "path": "resources/armor_no_shell_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000037"
+    },
+    {
+      "id": "padded",
+      "name": "Padded",
+      "path": "resources/armor_padded_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000003"
+    },
+    {
+      "id": "plasteel",
+      "name": "Plasteel",
+      "path": "resources/armor_plasteel_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000030"
+    },
+    {
+      "id": "plastwire",
+      "name": "Plastwire",
+      "path": "resources/armor_plastwire_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000021"
+    },
+    {
+      "id": "reinforced",
+      "name": "Reinforced",
+      "path": "resources/armor_reinforced_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000018"
+    },
+    {
+      "id": "relic",
+      "name": "Relic",
+      "path": "resources/armor_relic_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000036"
+    },
+    {
+      "id": "spinplate",
+      "name": "Spinplate",
+      "path": "resources/armor_spinplate_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000024"
+    },
+    {
+      "id": "spinweave",
+      "name": "Spinweave",
+      "path": "resources/armor_spinweave_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000009"
+    },
+    {
+      "id": "spinwire",
+      "name": "Spinwire",
+      "path": "resources/armor_spinwire_destiny.rpg",
+      "updated_at": "2026-06-25T14:00:00.000015"
+    },
+    {
+      "id": "agent_of_the_vanguard",
+      "name": "Agent of the Vanguard",
+      "path": "resources/background_agent_of_the_vanguard_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000106"
+    },
+    {
+      "id": "awoken_loyalist",
+      "name": "Awoken Loyalist",
+      "path": "resources/background_awoken_loyalist_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000107"
+    },
+    {
+      "id": "criminal",
+      "name": "Criminal",
+      "path": "resources/background_criminal_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000108"
+    },
+    {
+      "id": "crucible_contender",
+      "name": "Crucible Contender",
+      "path": "resources/background_crucible_contender_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000109"
+    },
+    {
+      "id": "cryptarch",
+      "name": "Cryptarch",
+      "path": "resources/background_cryptarch_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000110"
+    },
+    {
+      "id": "dead_orbiter",
+      "name": "Dead Orbiter",
+      "path": "resources/background_dead_orbiter_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000111"
+    },
+    {
+      "id": "engineer",
+      "name": "Engineer",
+      "path": "resources/background_engineer_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000112"
+    },
+    {
+      "id": "exo_seeker",
+      "name": "Exo Seeker",
+      "path": "resources/background_exo_seeker_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000113"
+    },
+    {
+      "id": "freelancer",
+      "name": "Freelancer",
+      "path": "resources/background_freelancer_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000114"
+    },
+    {
+      "id": "future_war_cultist",
+      "name": "Future War Cultist",
+      "path": "resources/background_future_war_cultist_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000115"
+    },
+    {
+      "id": "influencer",
+      "name": "Influencer",
+      "path": "resources/background_influencer_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000116"
+    },
+    {
+      "id": "new_monarchist",
+      "name": "New Monarchist",
+      "path": "resources/background_new_monarchist_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000117"
+    },
+    {
+      "id": "pilgrim_guardian",
+      "name": "Pilgrim Guardian",
+      "path": "resources/background_pilgrim_guardian_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000118"
+    },
+    {
+      "id": "pilot",
+      "name": "Pilot",
+      "path": "resources/background_pilot_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000119"
+    },
+    {
+      "id": "risen",
+      "name": "Risen",
+      "path": "resources/background_risen_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000007"
+    },
+    {
+      "id": "srl_racer",
+      "name": "SRL Racer",
+      "path": "resources/background_s_r_l_racer_destiny.rpg",
+      "updated_at": "2026-06-25T13:00:00.000120"
+    },
+    {
+      "id": "cabal_centurion",
+      "name": "Centurion",
+      "path": "resources/monster_centurion_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000066"
+    },
+    {
+      "id": "eliksni_archon",
+      "name": "Archon",
+      "path": "resources/monster_archon_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000012"
+    },
+    {
+      "id": "eliksni_baron",
+      "name": "Baron",
+      "path": "resources/monster_baron_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000019"
+    },
+    {
+      "id": "eliksni_captain",
+      "name": "Captain",
+      "path": "resources/monster_captain_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000027"
+    },
+    {
+      "id": "eliksni_dreg",
+      "name": "Dreg",
+      "path": "resources/monster_dreg_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000032"
+    },
+    {
+      "id": "eliksni_farpiercer",
+      "name": "Farpiercer",
+      "path": "resources/monster_farpiercer_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000036"
+    },
+    {
+      "id": "eliksni_jumper",
+      "name": "Jumper",
+      "path": "resources/monster_jumper_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000049"
+    },
+    {
+      "id": "eliksni_shank",
+      "name": "Shank",
+      "path": "resources/monster_shank_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000070"
+    },
+    {
+      "id": "hive_acolyte",
+      "name": "Acolyte",
+      "path": "resources/monster_acolyte_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000054"
+    },
+    {
+      "id": "vex_goblin",
+      "name": "Goblin",
+      "path": "resources/monster_goblin_destiny.rpg",
+      "updated_at": "2026-06-25T16:00:00.000058"
+    },
+    {
+      "id": "awoken",
+      "name": "Awoken",
+      "path": "resources/race_awoken_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000021"
+    },
+    {
+      "id": "cabal",
+      "name": "Cabal",
+      "path": "resources/race_cabal_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000103"
+    },
+    {
+      "id": "eliksni",
+      "name": "Eliksni",
+      "path": "resources/race_eliksni_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000145"
+    },
+    {
+      "id": "exo",
+      "name": "Exo",
+      "path": "resources/race_exo_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000054"
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "path": "resources/race_human_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000078"
+    },
+    {
+      "id": "krill",
+      "name": "Krill",
+      "path": "resources/race_krill_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000183"
+    },
+    {
+      "id": "psion",
+      "name": "Psion",
+      "path": "resources/race_psion_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000203"
+    },
+    {
+      "id": "vex",
+      "name": "Vex",
+      "path": "resources/race_vex_destiny.rpg",
+      "updated_at": "2026-06-25T12:00:00.000229"
+    },
+    {
+      "id": "destiny",
+      "name": "source_destiny",
+      "path": "resources/source_source_destiny.rpg",
+      "updated_at": "2026-06-25T17:00:00.000000"
+    },
+    {
+      "id": "auto_rifle",
+      "name": "Auto Rifle",
+      "path": "resources/weapon_auto_rifle_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000059"
+    },
+    {
+      "id": "broadsword",
+      "name": "Broadsword",
+      "path": "resources/weapon_broadsword_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000020"
+    },
+    {
+      "id": "combat_bow",
+      "name": "Combat Bow",
+      "path": "resources/weapon_combat_bow_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000054"
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "path": "resources/weapon_dagger_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000005"
+    },
+    {
+      "id": "fusion_rifle",
+      "name": "Fusion Rifle",
+      "path": "resources/weapon_fusion_rifle_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000094"
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe",
+      "path": "resources/weapon_greataxe_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000015"
+    },
+    {
+      "id": "grenade_launcher",
+      "name": "Grenade Launcher",
+      "path": "resources/weapon_grenade_launcher_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000099"
+    },
+    {
+      "id": "hand_cannon",
+      "name": "Hand Cannon",
+      "path": "resources/weapon_hand_cannon_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000064"
+    },
+    {
+      "id": "heavy_maul",
+      "name": "Heavy Maul",
+      "path": "resources/weapon_heavy_maul_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000032"
+    },
+    {
+      "id": "light_machine_gun",
+      "name": "Light Machine Gun",
+      "path": "resources/weapon_light_machine_gun_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000104"
+    },
+    {
+      "id": "linear_fusion_rifle",
+      "name": "Linear Fusion Rifle",
+      "path": "resources/weapon_linear_fusion_rifle_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000109"
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "path": "resources/weapon_longsword_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000027"
+    },
+    {
+      "id": "pulse_rifle",
+      "name": "Pulse Rifle",
+      "path": "resources/weapon_pulse_rifle_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000069"
+    },
+    {
+      "id": "rocket_launcher",
+      "name": "Rocket Launcher",
+      "path": "resources/weapon_rocket_launcher_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000114"
+    },
+    {
+      "id": "scout_rifle",
+      "name": "Scout Rifle",
+      "path": "resources/weapon_scout_rifle_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000074"
+    },
+    {
+      "id": "shortsword",
+      "name": "Shortsword",
+      "path": "resources/weapon_shortsword_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000037"
+    },
+    {
+      "id": "shotgun",
+      "name": "Shotgun",
+      "path": "resources/weapon_shotgun_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000119"
+    },
+    {
+      "id": "sidearm",
+      "name": "Sidearm",
+      "path": "resources/weapon_sidearm_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000079"
+    },
+    {
+      "id": "smallsword",
+      "name": "Smallsword",
+      "path": "resources/weapon_smallsword_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000042"
+    },
+    {
+      "id": "sniper_rifle",
+      "name": "Sniper Rifle",
+      "path": "resources/weapon_sniper_rifle_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000124"
+    },
+    {
+      "id": "submachine_gun",
+      "name": "Submachine Gun",
+      "path": "resources/weapon_submachine_gun_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000084"
+    },
+    {
+      "id": "throwing_hammer",
+      "name": "Throwing Hammer",
+      "path": "resources/weapon_throwing_hammer_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000010"
+    },
+    {
+      "id": "trace_rifle",
+      "name": "Trace Rifle",
+      "path": "resources/weapon_trace_rifle_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000089"
+    },
+    {
+      "id": "warhammer",
+      "name": "Warhammer",
+      "path": "resources/weapon_warhammer_destiny.rpg",
+      "updated_at": "2026-06-25T15:00:00.000049"
+    }
+  ]
+}
