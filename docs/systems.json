@@ -6,8 +6,7 @@
       "abbreviation": "D&Destiny",
       "version": "0.1.0",
       "min_app_version": "1.2.0",
-      "path": "destiny/system.composed.json",
-      "updated_at": "2026-06-25T14:00:00.000000"
+      "path": "destiny"
     }
   ]
 }
