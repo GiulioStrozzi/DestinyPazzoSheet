@@ -1,0 +1,70 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Padded"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "light"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 11
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "impose_stealth_disadvantage": {
+      "value": true
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "ed325487-da56-4365-a33d-b9036f684b98",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000001"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 13
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "e900912f-fc6d-47cd-86f1-357cc3a4ddea",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000002"
+          }
+        }
+      }
+    },
+    "id": "padded",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000003"
+    }
+  }
+}

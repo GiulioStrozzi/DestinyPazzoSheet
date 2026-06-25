@@ -1,0 +1,70 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Leather"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "light"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 11
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "impose_stealth_disadvantage": {
+      "value": false
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "1b09267f-135c-4bf4-b183-a0481a5a6c68",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000004"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "d529c38a-b275-485a-9796-5a4ef2388445",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000005"
+          }
+        }
+      }
+    },
+    "id": "leather",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000006"
+    }
+  }
+}

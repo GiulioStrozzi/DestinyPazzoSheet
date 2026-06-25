@@ -1,0 +1,129 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Rocket Launcher"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "rocket_launcher"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 2
+                    },
+                    "dice_type": {
+                      "value": "d10"
+                    },
+                    "id": "c9fe99fb-31ae-4e66-88e9-166fbeb14dd9",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000110"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "3a0e5990-51d2-4969-984b-430445cccb33",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000111"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Deals explosive damage in an area. Ghost memory: 5/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "10fbea65-c193-4f73-8134-49e85ebf73a9",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000112"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "de68e17a-578e-455f-8eed-c41268a82644",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000113"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_heavy": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 2
+    },
+    "scope": {
+      "value": "30/50/80"
+    },
+    "range_band": {
+      "value": "close"
+    },
+    "is_high_recoil": {
+      "value": true
+    },
+    "is_loading": {
+      "value": true
+    },
+    "is_payload": {
+      "value": true
+    },
+    "payload_radius": {
+      "value": "5 feet"
+    },
+    "id": "rocket_launcher",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000114"
+    }
+  }
+}

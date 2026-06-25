@@ -1,0 +1,120 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Grenade Launcher"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "grenade_launcher"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d10"
+                    },
+                    "id": "18ce271a-f3d0-431a-9734-becea6a3469f",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000095"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "9a0bfdd4-e96c-4298-8625-ceed5e333ea9",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000096"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Deals explosive damage in an area. Rounds can be lobbed in an arc to hit targets behind obstacles. Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "605ee219-d5e4-49d2-acec-40ee847f5d95",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000097"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 18
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "9073c3a5-3fdc-4636-a13f-af0b2d261870",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000098"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_finesse": {
+      "value": true
+    },
+    "is_special": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 4
+    },
+    "scope": {
+      "value": "20/50/120"
+    },
+    "range_band": {
+      "value": "medium"
+    },
+    "id": "grenade_launcher",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000099"
+    }
+  }
+}

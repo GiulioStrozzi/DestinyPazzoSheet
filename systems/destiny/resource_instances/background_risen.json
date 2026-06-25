@@ -1,0 +1,148 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Risen"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Ghost"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "As a Risen you have a Ghost, a tiny construct made by the Traveler, now your inseparable companion. Your Ghost is the conduit to your power as a Guardian. Without it, you cannot wield the Light or advance in any Guardian class. Your Ghost is considered its own creature and has its own thoughts, feelings, opinions, and desires."
+                    },
+                    "id": "41a1499c-d36a-4eab-a004-d89d252174f0",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000005"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "741700d6-e809-4232-a67f-a49fef4316c3",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000006"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Risen"
+            },
+            "id": "bb4e5500-8d94-412b-8a08-f60344ae2a65",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000002"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Risen Sign Language (RSL)"
+            },
+            "id": "3df348e7-46c3-4782-be57-eec0881a059b",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000003"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "acrobatics",
+                "animal_handling",
+                "arcana",
+                "athletics",
+                "deception",
+                "history",
+                "insight",
+                "intimidation",
+                "investigation",
+                "medicine",
+                "nature",
+                "perception",
+                "performance",
+                "persuasion",
+                "religion",
+                "sleight_of_hand",
+                "stealth",
+                "survival",
+                "technology"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "9e282a27-45e0-4e16-9636-8f3c1207d4c0",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000001"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Choose any one skill, toolkit, vehicle, or additional language"
+            },
+            "id": "e26fe441-ae2c-457e-84e7-d99a0e3516cb",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000004"
+            }
+          }
+        }
+      ]
+    },
+    "id": "risen",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000007"
+    }
+  }
+}

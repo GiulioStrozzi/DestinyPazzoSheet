@@ -1,0 +1,140 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Pilgrim Guardian"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Life on the Road"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Your devotion to protecting humanity's survivors means you spend most of your time on Earth, beyond the City walls. You live on the pilgrim roads, in the ruins of the Golden Age, and in the open wilds, and go wherever people seeking the City could use your help. After years of scouting, charting, and providing escort, you know most of Earth's terrain better than almost anyone alive. You often know of shortcuts, can assess the relative dangers of different routes, and are almost always able to find a safe place for a short rest."
+                    },
+                    "id": "9d29a98b-4a16-411b-87ad-3a1d251d9ebe",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000094"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "2b9a0e72-139b-4611-a766-037999b08da3",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000095"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "animal_handling"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "af83779b-14da-471d-9149-b89d023cf0c7",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000090"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "survival"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "02063607-9377-4d77-bed8-38a5782860c6",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000091"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "medicine",
+                "nature"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "82b3764e-0a4d-47dd-bd02-b50f857ee46f",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000092"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Armorsmithing toolkit or weaponsmithing toolkit"
+            },
+            "id": "ef19d97d-5d57-44bb-a371-a6b35b672a3f",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000093"
+            }
+          }
+        }
+      ]
+    },
+    "id": "pilgrim_guardian",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000118"
+    }
+  }
+}

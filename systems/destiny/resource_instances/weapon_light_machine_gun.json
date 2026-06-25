@@ -1,0 +1,120 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Light Machine Gun"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "light_machine_gun"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d10"
+                    },
+                    "id": "05da23b3-2937-47bf-8452-521f28516976",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000100"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "547a77bb-08f3-4ada-a72d-066078942f93",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000101"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 5/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 3750
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "4ac823c0-2737-46a9-9693-0d5ead3c7b07",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000102"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 21
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "a0c9eb25-b429-4249-85b4-a702b88ca2da",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000103"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 5
+    },
+    "scope": {
+      "value": "20/40/80"
+    },
+    "range_band": {
+      "value": "close"
+    },
+    "is_automatic_fire": {
+      "value": true
+    },
+    "is_high_recoil": {
+      "value": true
+    },
+    "id": "light_machine_gun",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000104"
+    }
+  }
+}

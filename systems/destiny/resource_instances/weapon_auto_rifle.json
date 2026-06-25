@@ -1,0 +1,120 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Auto Rifle"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "auto_rifle"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": true
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d6"
+                    },
+                    "id": "64ddac3e-6747-4bf1-b6ec-855a4fabab11",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000055"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "6af5376a-c0a2-4b5e-8e7f-f5537ba1efb6",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000056"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 1750
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "20821386-20ff-4a2b-8986-58225ab9c524",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000057"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "c6315132-cbe7-4fcb-807c-de6be8508cc5",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000058"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 8
+    },
+    "scope": {
+      "value": "30/40/75"
+    },
+    "range_band": {
+      "value": "close"
+    },
+    "is_automatic_fire": {
+      "value": true
+    },
+    "is_high_recoil": {
+      "value": true
+    },
+    "id": "auto_rifle",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000059"
+    }
+  }
+}

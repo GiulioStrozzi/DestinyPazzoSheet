@@ -1,0 +1,147 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Goblin"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": "natural armor"
+    },
+    "armor_class": {
+      "value": 15
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 5
+          },
+          "dice_type": {
+            "value": "d8"
+          },
+          "constant": {
+            "value": 5
+          },
+          "id": "319bb5cc-e40d-4318-937d-43f76701d2f6",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000057"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_2"
+    },
+    "xp": {
+      "value": 450
+    },
+    "speed": {
+      "value": 20
+    },
+    "strength_score": {
+      "value": 13
+    },
+    "dexterity_score": {
+      "value": 8
+    },
+    "constitution_score": {
+      "value": 12
+    },
+    "intelligence_score": {
+      "value": 14
+    },
+    "wisdom_score": {
+      "value": 15
+    },
+    "charisma_score": {
+      "value": 11
+    },
+    "skills": {
+      "value": "History +8, Perception +5, Technology +5"
+    },
+    "senses": {
+      "value": "darkvision 120 ft., passive Perception 15, passive scanners 5 ft."
+    },
+    "languages": {
+      "value": "Understands all, speaks Hexinary"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": "Charmed, Exhaustion, Frightened"
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "medium"
+    },
+    "type": {
+      "value": "vex"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": []
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Slap Rifle"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +5 to hit, scope 25/50/90 (close), one target. Hit: 6 (1d8+2) solar damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "7d7168f5-306d-4fa6-ab15-b80d21fa0de6",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000055"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Teleport"
+            },
+            "action_description": {
+              "value": "The goblin teleports to an unoccupied spot within 60 feet, taking all carried and worn equipment of its choice with it."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "01edc58b-ea12-479a-8f60-fa66f4d9a373",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000056"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "id": "vex_goblin",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000058"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Future War Cultist"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Si Vis Pacem"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Future War Cult calls upon all its members to contribute to their ongoing efforts to maintain and improve their own battle readiness, as well as to gather intelligence and sometimes conduct interventions informed by the forecasting and prognostication of the Cult's leadership. In return, members are equipped with weapons and armor, and are sometimes foretold of coming events that may be relevant to their current deployment. You are typically not at liberty to divulge your instructions or prophetic intelligence to nonmembers."
+                    },
+                    "id": "99ecf9c3-afb6-4487-89db-6627c51695bb",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000076"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "a0f2454e-e730-440c-8925-0c016be1216e",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000077"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: War Prophet"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "After years of diligent service and many tiers of initiation, you have become a fairly high-status member of Future War Cult's leadership. Most significantly, you are permitted some access to the Device, an experimental Golden Age machine modeled on Vex gate technology, which the War Cult uses to temporally displace consciousness and thereby attempt to observe possible futures. You are also able to consult the CHASM records. With both the Device and the CHASM records at your disposal, you are able to seek prophetic intelligence when you wish."
+                    },
+                    "id": "cb8ee2fc-c733-4a77-8e04-4211ee584373",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000078"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "63f5bb52-a0b4-4d07-9dec-0b369f4c4d2b",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000079"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "investigation"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "5814ec81-b02f-40e4-8708-bbb9da7af832",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000073"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "insight"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "566d9e89-c6cf-4ea5-b976-71138e3596d3",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000074"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Weaponsmithing toolkit"
+            },
+            "id": "201f112d-9078-46ae-8832-a6022829d599",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000075"
+            }
+          }
+        }
+      ]
+    },
+    "id": "future_war_cultist",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000115"
+    }
+  }
+}

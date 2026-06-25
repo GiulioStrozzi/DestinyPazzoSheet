@@ -1,0 +1,10 @@
+{
+  "id": "currencies",
+  "name": "Currencies",
+  "types": [
+    {
+      "id": "glimmer",
+      "name": "Glimmer"
+    }
+  ]
+}

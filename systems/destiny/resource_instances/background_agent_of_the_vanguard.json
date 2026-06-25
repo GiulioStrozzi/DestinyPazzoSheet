@@ -1,0 +1,210 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Agent of the Vanguard"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Vanguard Connection"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have ready access to standard equipment provided by the Vanguard, which you can borrow to assist in your Vanguard-sanctioned operations. If any of your equipment breaks, you can get it fixed when you visit the Tower. If you don't have a jumpship or sparrow, the Vanguard will provide temporary transportation at no charge. While operating in the field, if you encounter any other Vanguard agents or creatures who are allied with the Vanguard or the Last City, you can request aid from them. This aid may come in the form of shelter, glimmer, food, equipment, or help in combat, and may be limited depending on who exactly you encounter."
+                    },
+                    "id": "20805945-ab6a-4ae7-9dcf-5e1debaf7bfa",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000012"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "ad64d77f-7622-431b-909f-e969243a618e",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000013"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Officer"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "As an officer of the Vanguard, you are a senior agent elevated into a position of command over other Guardians. Those loyal to the Vanguard recognize your rank and will defer to you if you have authority to command them. You can invoke your rank to requisition equipment and supplies for Vanguard-sanctioned operations you perform, and you can purchase equipment, including exotic equipment, through the Vanguard at a small discount."
+                    },
+                    "id": "322ab327-2834-4bcb-8369-9dc5fb96ac9f",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000014"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "71816e16-9148-4bce-bbc4-7bb64ff41d88",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000015"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Ikora's Hidden"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Warlock Vanguard Ikora Rey oversees the Hidden, a secretive group of Guardians deployed as intelligence operatives for the City. Through long and especially distinguished service to the Vanguard, you have been inducted into this clandestine group. You are entrusted with extremely sensitive intelligence and Vanguard secrets, which you must protect at all costs. You report directly to Ikora, and the orders you receive from her take priority over anything else."
+                    },
+                    "id": "ada80d7e-31cb-4a54-a413-1da8e04518c1",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000016"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "4bfabbd3-2af9-4033-bcc5-fbd92c9e1b83",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000017"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "City common"
+            },
+            "id": "65ff85e5-f707-404d-abc3-ef314503464b",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000010"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "persuasion"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "3aed50a7-deb8-4d87-9eb2-75ab765ce3a5",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000008"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "athletics",
+                "acrobatics"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "9308fddf-a30f-4e8f-90f3-3416bf9e5316",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000009"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Weaponsmithing toolkit"
+            },
+            "id": "4b1097bf-9d84-447d-9dd1-4a2c8a9801e6",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000011"
+            }
+          }
+        }
+      ]
+    },
+    "id": "agent_of_the_vanguard",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000106"
+    }
+  }
+}

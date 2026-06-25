@@ -1,0 +1,872 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Eliksni"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 30
+    },
+    "ability_score_increases": {
+      "value": [
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 2
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "c47e4947-5abb-4b02-9d25-a8695fe2dad8",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000104"
+            }
+          }
+        },
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 1
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "08612ae1-7d28-41df-af38-641fe728f1ef",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000105"
+            }
+          }
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Darkvision"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Eliksni's four eyes see beyond the spectrum visible to humans, and are well adapted for dark environments. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+                    },
+                    "id": "dec28727-5951-473f-afe4-c87e3d088b9b",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000108"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "5dc4c8d7-1530-451f-949a-3696011d7d77",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000109"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Enhanced Sense"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have advantage on Wisdom (Perception) checks you make that rely on scent."
+                    },
+                    "id": "447b4807-c550-4844-84cb-9cb248290be8",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000110"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "9916be3f-6d2e-4780-8206-aff91b7f928d",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000111"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Multi-Limbed"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have four arms: two right arms and two left arms. When you hold a two-handed weapon, you must use one right hand and one left hand in order to do so. You cannot hold more than one two-handed weapon at a time."
+                    },
+                    "id": "ef64e78e-b736-468e-90ec-7acdf443e7b7",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000112"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "6ce2c6dc-5601-420e-89b5-1f466658bca4",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000113"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Ether Diet"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "The form your body takes is dependent on the amount of ether you consume. No matter how little ether you consume, you cannot be below the vandal form of Eliksni. If you maintain a steady diet so as to meet the dietary requirements of other Eliksni forms, you may obtain one of those forms. You cannot skip forms: you must advance from one form to the other, following the guidelines for form advancement."
+                    },
+                    "id": "9f396295-b410-454f-997e-081631146de5",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000114"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "59153c09-4c2c-4c5e-801e-d2f31f9570ad",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000115"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Eliksni"
+            },
+            "id": "8f99545c-1870-4917-a1f0-a16810374100",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000106"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "City common (with voice synth)"
+            },
+            "id": "8ccf63f2-71b8-4883-a23d-6c50392cc53d",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000107"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Vandal"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Natural Climber"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You have a climbing speed of 30 feet. You only need to use two of your hands to climb, including while moving up vertical surfaces and upside-down on ceilings."
+                            },
+                            "id": "d7fedb49-b41a-4e72-aff6-d216d2634662",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000116"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "b2acbb3c-b319-48ed-82ac-c8ea222e866c",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000117"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Vandal Evasion"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you fail a Dexterity saving throw, you can choose to succeed instead. Once you use this trait, you must complete a long rest before you can use it again."
+                            },
+                            "id": "1e120833-19b4-4dc1-8028-f09e41a6bd8d",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000118"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "1c88bd28-237e-4c5c-a52f-71caf9d4b431",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000119"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Form Advancement"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you meet the dietary requirements of the captain form for a consecutive period of 30 days, at the end of the 30 days, you finish growing into the captain form. You lose the traits of the vandal form and gain the traits of the captain form."
+                            },
+                            "id": "4194d4a4-4c68-4234-8fcd-a4fa44695227",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000120"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "01351e59-c93f-41eb-aeb0-0b11d54e5ece",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000121"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "climb_speed": {
+              "value": 30
+            },
+            "id": "eliksni_vandal",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000122"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Captain"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Dietary Requirements"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You must consume twice as much ether a day (2 rations/day) to maintain a captain form. If you fail to meet this requirement for any given 15 days in a 30-day period, at the end of the 30-day period you finish reducing to the vandal form."
+                            },
+                            "id": "28431d16-75ef-4a13-8615-c1d4580abe3b",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000123"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "3a57a36f-3ac4-4322-a7bc-5eee4a1a2d96",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000124"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Presence"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You are naturally proficient with your choice of either the Intimidation or Persuasion skill while maintaining the captain form. Once you make this choice you cannot change it, regardless of how many times you lose or gain this form."
+                            },
+                            "id": "a8ff7fdc-8d85-4ede-b024-1169deb5b017",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000125"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "fb443537-e9fd-4316-8bfb-e1da4492a1f1",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000126"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Relentless"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you take damage that would reduce you to 0 hit points or less, you can instead drop to 1 hit point. Once you use this trait, you must complete a long rest before you can use it again."
+                            },
+                            "id": "5103e1d2-7be9-430d-9509-a348981a83eb",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000127"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "bc39c472-55bc-42c5-9c6e-de287016c973",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000128"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Form Advancement"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you meet the dietary requirements of the baron form for a consecutive period of 30 days, at the end of the 30 days, you finish growing into the baron form. You gain the traits of the baron form in addition to the traits of the captain form."
+                            },
+                            "id": "8f9363de-f72c-4981-adaa-a314abd3d3bb",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000129"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "ff545640-e434-4beb-a3b2-368f0f026932",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000130"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "eliksni_captain",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000131"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Baron"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Dietary Requirements"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You must consume eight times as much ether a day (8 rations/day) to maintain a baron form. If you fail to meet this requirement for any given 15 days in a 30-day period, at the end of the 30-day period you finish reducing to the captain form."
+                            },
+                            "id": "74ee1897-17c4-48de-a65c-2bbb58d3726f",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000132"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "3eb7b8fe-96f4-4a30-bc83-02504ba22688",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000133"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Size"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Your size becomes Large."
+                            },
+                            "id": "186bb071-663b-4045-8136-8f39e4753e64",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000134"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "b3d9b422-7db6-4195-9ee6-7f48b8b1bf7a",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000135"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Conspicuous"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You have disadvantage on Dexterity (Stealth) checks."
+                            },
+                            "id": "f7a0a638-c36e-4f4e-8983-eba98268589b",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000136"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "563c803e-9be3-4707-9475-8db9d94dbf41",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000137"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Strength of Size"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Your Strength is increased by 2."
+                            },
+                            "id": "e772be8f-9e0e-4d16-88c1-2d260a78db97",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000138"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "f75b0598-eee6-40ce-837b-2b18880fa11d",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000139"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "The Bigger They Are"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You are a much easier target to hit on the battlefield now, and your increased size hinders your movement. While maintaining this form, your AC is reduced by 1, and your Dexterity score is reduced by 2."
+                            },
+                            "id": "b4f02a59-2116-4d56-a2b3-eca749d27c73",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000140"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "d3d25817-98c8-4d20-9c14-29b235b63d15",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000141"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Commanding Presence"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You gain one of the following traits, depending on whether you chose Intimidation or Persuasion for the Presence trait in captain form. If you chose Intimidation, you gain Bellow. If you chose Persuasion, you gain Embolden.\n\nBellow: As an action on your turn you can let out a bellowing howl that can be heard up to 300 feet away. All hostile creatures who can hear you must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). On a failed save, they become Frightened of you for the next minute. A creature can repeat the saving throw at the end of each of their turns, ending the effect on itself early on a success. Once you use this trait, you must complete a long rest before you can use it again.\n\nEmbolden: As an action on your turn you can shout words of encouragement, which can be heard clearly up to 60 feet away. For the next minute, creatures who clearly heard you and who consider you their ally cannot be Charmed or Frightened, and if they are already Charmed or Frightened, the condition ends early for them. In addition, once on each of your allies' next turn, they can add a d4 to an ability check, saving throw, or attack roll they make. This effect ends early if you are Incapacitated. Once you use this trait, you must complete a long rest before you can use it again."
+                            },
+                            "id": "9ca19f54-a28c-4176-b9ca-108f609cc6e3",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000142"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "d16d7e8c-a4c6-42b2-95b9-39befe05ea20",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000143"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "eliksni_baron",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000144"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "eliksni",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000145"
+    }
+  }
+}

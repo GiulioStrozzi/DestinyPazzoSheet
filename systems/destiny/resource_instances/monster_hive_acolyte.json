@@ -1,0 +1,166 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Acolyte"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": "natural armor"
+    },
+    "armor_class": {
+      "value": 13
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 4
+          },
+          "dice_type": {
+            "value": "d8"
+          },
+          "constant": {
+            "value": 4
+          },
+          "id": "dcc57dba-632b-49b6-93a5-9b12ea36772a",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000053"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_2"
+    },
+    "xp": {
+      "value": 450
+    },
+    "speed": {
+      "value": 30
+    },
+    "strength_score": {
+      "value": 13
+    },
+    "dexterity_score": {
+      "value": 14
+    },
+    "constitution_score": {
+      "value": 12
+    },
+    "intelligence_score": {
+      "value": 11
+    },
+    "wisdom_score": {
+      "value": 15
+    },
+    "charisma_score": {
+      "value": 12
+    },
+    "skills": {
+      "value": "Perception +5, Religion +5, Stealth +5"
+    },
+    "senses": {
+      "value": "darkvision 120 ft., passive Perception 15"
+    },
+    "languages": {
+      "value": "Krill"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": ""
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "medium"
+    },
+    "type": {
+      "value": "hive"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Shadowy Movement"
+            },
+            "trait_description": {
+              "value": "When in dim light or darkness, the acolyte can take the Disengage or Hide action as a bonus action on its turn."
+            },
+            "id": "82b67081-6df9-4d7a-b529-bd592c4f3204",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000050"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Multiattack"
+            },
+            "action_description": {
+              "value": "The acolyte takes three shots with its shredder rifle."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "20f77562-619d-41ff-94b8-5548b97d27d3",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000051"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Shredder Rifle"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +4 to hit, scope 30/40/75 (close), one target. Hit: 7 (2d6 drop lowest +1, automatic fire) void damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "db25c8ce-5240-4ba0-9a75-d8522feae7de",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000052"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "climb_speed": {
+      "value": 20
+    },
+    "id": "hive_acolyte",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000054"
+    }
+  }
+}

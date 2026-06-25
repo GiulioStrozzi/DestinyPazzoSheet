@@ -1,0 +1,148 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Shank"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": "VI, Eliksni tech, shank"
+    },
+    "armor_class": {
+      "value": 12
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 2
+          },
+          "dice_type": {
+            "value": "d6"
+          },
+          "constant": {
+            "value": 2
+          },
+          "id": "7fe727fb-fa4c-4e6b-a703-14122bede66e",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000069"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_1_8"
+    },
+    "xp": {
+      "value": 25
+    },
+    "speed": {
+      "value": 30
+    },
+    "strength_score": {
+      "value": 8
+    },
+    "dexterity_score": {
+      "value": 14
+    },
+    "constitution_score": {
+      "value": 12
+    },
+    "intelligence_score": {
+      "value": 9
+    },
+    "wisdom_score": {
+      "value": 14
+    },
+    "charisma_score": {
+      "value": 10
+    },
+    "skills": {
+      "value": "Perception +2"
+    },
+    "senses": {
+      "value": "darkvision 60 ft., passive Perception 14"
+    },
+    "languages": {
+      "value": "\u2014"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": "poison, psychic; Blinded, Burning, Charmed, Deafened, Exhaustion, Frightened, Petrified, Poisoned"
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "small"
+    },
+    "type": {
+      "value": "construct"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Hover"
+            },
+            "trait_description": {
+              "value": "The shank has a flying speed of 30 ft. and can hover."
+            },
+            "id": "e8e37c7c-f602-4b71-80cf-d1e79fdf05fe",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000067"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Turret"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +4 to hit, scope 20/30/40 (close), one target. Hit: 5 (1d6+2) arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "136342b8-e2e2-43d9-96f9-0753165c479b",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000068"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "fly_speed": {
+      "value": 30
+    },
+    "id": "eliksni_shank",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000070"
+    }
+  }
+}

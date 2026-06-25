@@ -1,0 +1,114 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Scout Rifle"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "scout_rifle"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": true
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d8"
+                    },
+                    "id": "012f6839-e3ab-489b-b9a5-cca35c611d88",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000070"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "a3380b49-1259-4bc6-aba9-a69ea1f2f890",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000071"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "d957ce73-b560-4cd7-93a0-13ce2dba7142",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000072"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "3ffc2f05-07e1-4276-a429-4a2f6ffc22c1",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000073"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 6
+    },
+    "scope": {
+      "value": "15/120/240"
+    },
+    "range_band": {
+      "value": "medium"
+    },
+    "id": "scout_rifle",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000074"
+    }
+  }
+}

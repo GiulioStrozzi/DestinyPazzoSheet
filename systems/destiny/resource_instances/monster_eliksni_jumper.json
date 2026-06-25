@@ -1,0 +1,314 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Jumper"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": "VI, Eliksni tech"
+    },
+    "armor_class": {
+      "value": 17
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 12
+          },
+          "dice_type": {
+            "value": "d10"
+          },
+          "constant": {
+            "value": 12
+          },
+          "id": "f42d8659-c5b5-45d4-87e7-0a9bf823fcab",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000048"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_6"
+    },
+    "xp": {
+      "value": 2300
+    },
+    "speed": {
+      "value": 35
+    },
+    "strength_score": {
+      "value": 18
+    },
+    "dexterity_score": {
+      "value": 17
+    },
+    "constitution_score": {
+      "value": 13
+    },
+    "intelligence_score": {
+      "value": 16
+    },
+    "wisdom_score": {
+      "value": 16
+    },
+    "charisma_score": {
+      "value": 10
+    },
+    "skills": {
+      "value": "Athletics +8, History +7, Investigation +7, Perception +7"
+    },
+    "senses": {
+      "value": "darkvision 120 ft., passive Perception 17, passive scanners 5 ft."
+    },
+    "languages": {
+      "value": "\u2014"
+    },
+    "resistances": {
+      "value": "arc, bludgeoning, piercing, slashing, solar, void"
+    },
+    "immunities": {
+      "value": "poison, psychic; Blinded, Burning, Charmed, Deafened, Exhaustion, Frightened, Petrified, Poisoned, Restrained"
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "large"
+    },
+    "type": {
+      "value": "construct"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Multiform Creature"
+            },
+            "trait_description": {
+              "value": "The jumper has two forms, active and dormant. Only certain features or actions are available for each form."
+            },
+            "id": "79177539-a388-41d3-ab13-60345372856c",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000037"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "All-Terrain Vehicle"
+            },
+            "trait_description": {
+              "value": "The jumper can move up, down, and across vertical surfaces and upside down along ceilings without an ability check. Its long jump is up to 20 ft. and high jump up to 15 ft., with or without a running start."
+            },
+            "id": "bf62e9af-c6d4-43a4-9a02-44d8b57b3b97",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000038"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Surprise Striker"
+            },
+            "trait_description": {
+              "value": "The jumper has advantage on all attacks against a creature it has surprised."
+            },
+            "id": "e9057cfc-9012-49a9-a359-c404d190f49b",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000039"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Multiattack"
+            },
+            "action_description": {
+              "value": "The jumper takes two shots with its minigun or turret."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "e900020d-62da-41a4-a024-aefcad28f3bb",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000040"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Turret"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +8 to hit, scope 50/240/600 (medium), one target. Hit: 9 (1d10+4) explosive arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "b0f3c77a-6545-4253-b1b7-203ff18d3509",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000041"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Minigun (active form only)"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +8 to hit, scope 15/30/50 (close), one target. Hit: 10 (2d4, automatic fire) kinetic damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "f3bce24a-3f3e-4e03-904e-3eef58b166ee",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000042"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Form Shift"
+            },
+            "action_description": {
+              "value": "The jumper toggles between active and dormant. While dormant it is Medium, its speed becomes 0, its passive scanners increase to a 10-foot radius, and it does not appear on scanners as a living creature or machine."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "d54ecc15-2cce-44ca-81c6-f1cd2e8dab32",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000043"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Legendary Actions"
+            },
+            "action_description": {
+              "value": "The jumper can take 2 legendary actions, choosing from the options below. Only one at a time, at the end of another creature's turn. It regains spent legendary actions at the start of its turn."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "2c7b8b97-705c-4b06-bae2-4fc44bc4b444",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000044"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Scan"
+            },
+            "action_description": {
+              "value": "The jumper scans in a 20-foot cone."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "acf1778f-7ced-4ce5-8c72-aeed7a3c2ad0",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000045"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Open Fire"
+            },
+            "action_description": {
+              "value": "The jumper makes one firearm attack."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "7e0d1813-ac5b-4f8c-8daa-e908eca1d3b9",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000046"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Leaping Pin (active form only, costs 2 actions)"
+            },
+            "action_description": {
+              "value": "The jumper leaps at an unoccupied spot within 5 feet of a target within 20 feet. The target makes a DC 16 Strength save, taking 19 (4d8) bludgeoning damage and being knocked Prone and Restrained (escape DC 16) on a failure, or half damage and no other effect on a success."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "e166326f-b716-4aee-9322-976bb6c1996b",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000047"
+            }
+          }
+        }
+      ]
+    },
+    "climb_speed": {
+      "value": 25
+    },
+    "strength_saving_throw_modifier": {
+      "value": 8
+    },
+    "dexterity_saving_throw_modifier": {
+      "value": 7
+    },
+    "intelligence_saving_throw_modifier": {
+      "value": 7
+    },
+    "id": "eliksni_jumper",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000049"
+    }
+  }
+}

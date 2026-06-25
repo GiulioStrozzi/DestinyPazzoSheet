@@ -1,0 +1,70 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Generalist Shell"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "ghost_shell"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 13
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "impose_stealth_disadvantage": {
+      "value": false
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 3/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "35d9bbe9-c474-4825-8fbd-6b836bd1ca8a",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000038"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "508e3a4e-7791-464a-a1c9-94ee120f12ee",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000039"
+          }
+        }
+      }
+    },
+    "id": "generalist_shell",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000040"
+    }
+  }
+}

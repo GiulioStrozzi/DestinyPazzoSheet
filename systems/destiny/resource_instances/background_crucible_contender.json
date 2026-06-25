@@ -1,0 +1,172 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Crucible Contender"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Rookie of the Year"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You can expect other people who follow the rankings of your chosen area of competition to have heard of you. Those who have a favorable opinion of you are generally willing to provide you with free food and beverages for the chance to hang out with you for a while. You can also easily request private matches without much wait time, and should you decide to switch areas of competition, you'll generally find it easier to get in contact with mid-tier or higher competitors in your new area and possibly team up with them."
+                    },
+                    "id": "82a2fa0b-a070-47f1-b072-9422106f7f60",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000037"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "d01b030f-4fa2-4ffd-b505-d6cf74240b6e",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000038"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Champion"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "After competing in the Crucible for a considerable time, you have finally achieved a championship title. Being a champion means you've gained the attention of the City's weapon foundries, who are eager to sponsor Guardians such as yourself. Sponsorship means you can expect a large sum of glimmer when you sign the contract, and you can borrow from the arsenal of the foundry at no cost, though borrowing exotic weapons may still have an associated cost. Generally, the foundry will require you to exclusively use their equipment when competing in the Crucible or appearing on broadcasts."
+                    },
+                    "id": "1ed5ce30-43c1-44a1-90b3-70c88708806b",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000039"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "afdf0afe-2978-4aea-b4c4-087e9681254c",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000040"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "intimidation"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "6f8e3920-6223-44fe-8c2b-6288a0a72c25",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000033"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "athletics",
+                "acrobatics"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "a29ccf9f-6ea1-48c5-b7dd-de8bb112bbff",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000034"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Armorsmithing toolkit"
+            },
+            "id": "341f613b-b193-4595-8c79-42b9fe6782c6",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000035"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Weaponsmithing toolkit"
+            },
+            "id": "ae489764-37ef-4e04-81d9-5dc5cf6f9b4a",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000036"
+            }
+          }
+        }
+      ]
+    },
+    "id": "crucible_contender",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000109"
+    }
+  }
+}

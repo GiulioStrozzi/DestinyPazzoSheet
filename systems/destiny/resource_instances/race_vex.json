@@ -1,0 +1,576 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Vex"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 20
+    },
+    "ability_score_increases": {
+      "value": [
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 2
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "5226113a-0549-4790-913a-810fd79620c2",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000204"
+            }
+          }
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Blink"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "As either an action or bonus action on your turn, you can teleport to an unoccupied space you can see that is within a distance equal to 5 times your proficiency bonus. You take all carried and worn equipment of your choice with you when you do this."
+                    },
+                    "id": "855af1c5-43c9-4a02-8d4b-1ca149599e15",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000206"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "aa4aa62c-a285-44d7-8934-22ac6a821d10",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000207"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Darkvision"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Vex monocular sensors can be tuned to perceive various electromagnetic spectra. You can see in dim light within 30 feet of you as if it were bright light, and in darkness as if it were dim light."
+                    },
+                    "id": "d29c6f1e-936c-4ff2-aec9-735afc81f30d",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000208"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "86fa5df3-60a9-4a5e-b3bb-7341b37fdbfa",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000209"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Living Machine"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Even though you are part of a machine, your consciousness itself is processed in a substrate of living radiolarian organisms suspended in fluid. You are considered a living creature, and you appear on scanners as one. You are immune to disease, and you do not eat or breathe. Instead of sleeping, you enter an inactive state for 4 hours each day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+                    },
+                    "id": "52865c6c-01f1-4e85-b76c-7e5109417701",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000210"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "f9e34812-3241-4638-9f4a-45600c543bbb",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000211"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Natural Armor"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Due to your machine body, your AC cannot be less than 15, even when unarmored."
+                    },
+                    "id": "53b39c80-110a-4ed9-9b1a-ede72204b1a9",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000212"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "04219b82-41f9-418f-965c-baff589b6e51",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000213"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Superior Memory"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You are naturally proficient in the History skill, and you can double your proficiency bonus for it when you make an Intelligence (History) check to recall information you have learned, or to recall the details of your experiences. Your Intelligence (History) check can only benefit from this if it does not already benefit from a feature or trait that allows you to double your proficiency bonus for it."
+                    },
+                    "id": "962bcad3-3cb1-453d-9798-70535bd5a08f",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000214"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "4e2c3a77-83f2-45a9-80cd-2129a50c0942",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000215"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Hexinary"
+            },
+            "id": "cffd4749-3984-41c3-be85-2920d6ecb75b",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000205"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Goblin"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 20
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Reactive Blink"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If a creature makes a weapon attack against you, or if you are forced to make a Dexterity saving throw, you can choose to use your Blink trait as a reaction. You can only choose to do this if you did not use Blink since the start of your previous turn, and if there is an unoccupied spot within range of your Blink. When you choose to do this, you cause disadvantage on the attack roll, or you grant yourself advantage on the Dexterity saving throw."
+                            },
+                            "id": "47847962-ed82-486b-85e5-cb1ad58ccdc3",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000216"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "2bb7d70e-1a6a-4bc7-b960-3af2cf4cd00c",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000217"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "vex_goblin",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000218"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Hobgoblin"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 15
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Aimbot"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Once on your turn, you can choose to begin Aiming without expending movement to do so."
+                            },
+                            "id": "9aab9bd5-f158-4dca-add9-d90951227796",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000219"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "28503914-321d-4eb3-baf3-e7002950fd1a",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000220"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Scanners"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "As an action you can open your conscious mind up to the extensive sensor array in your horns. For the next minute, you have scanners with a radius equal to 5 times your proficiency bonus. You must complete a short or long rest to use this trait again."
+                            },
+                            "id": "16d711de-8b73-4c26-b9e4-f67369f2dd85",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000221"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "9250fa83-a221-403c-b0e3-53208511397f",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000222"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "vex_hobgoblin",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000223"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Minotaur"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 20
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Extended Reach"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "When you make an attack with a melee weapon on your turn, your reach for it is 5 feet greater than it is normally."
+                            },
+                            "id": "4fdef2a2-940f-4579-bbe1-89f6ef72b42a",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000224"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "727c3d8c-b7dc-4714-ab01-84ba3e0e4956",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000225"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Heavyweight"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You count as one size larger when determining your weight limit, when determining the result of effects that target creatures of specific sizes, and for determining what you can grapple, shove, or ride as a mount."
+                            },
+                            "id": "515a7b4e-3e3f-4c2c-95bc-e0ed22f40f07",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000226"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "94f0ad3e-033b-4568-8da5-0d7f82a36670",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000227"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "vex_minotaur",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000228"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "vex",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000229"
+    }
+  }
+}

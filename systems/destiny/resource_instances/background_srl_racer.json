@@ -1,0 +1,122 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "SRL Racer"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Sparrow Trickster"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Almost all Guardians know how to ride a sparrow, but you elevate it beyond a mere functional competency to a level of artful refinement few can match. You devote a considerable portion of your personal resources to maintain a precision-tuned, high-end sparrow, and you can ride it over anything. Terrain other Guardians would consider unsafe or even impassible is just another challenge for you to sail over, probably while pulling out-of-saddle tricks in the air. You can also comfortably ride at speeds most Guardians would find bowel-crushing. Off the racecourse, these special skills can be of use to your fireteam in certain situations."
+                    },
+                    "id": "2ed945bb-3b51-43b2-b9bb-950fa210c8bf",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000104"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "c8d0c9c4-6999-4147-bd33-f78f2b64c11b",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000105"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "acrobatics"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "0d7daf4e-2707-40f6-9cb5-4acdb98bf4d4",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000101"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "performance"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "f696a936-9513-4234-9da5-028f6337bcde",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000102"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Vehicle toolkit"
+            },
+            "id": "b8cc82c3-4a9a-4cee-8152-f9cc9193bc0b",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000103"
+            }
+          }
+        }
+      ]
+    },
+    "id": "srl_racer",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000120"
+    }
+  }
+}

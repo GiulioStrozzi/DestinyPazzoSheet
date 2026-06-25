@@ -1,0 +1,220 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Centurion"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": "heavy armor"
+    },
+    "armor_class": {
+      "value": 17
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 9
+          },
+          "dice_type": {
+            "value": "d8"
+          },
+          "constant": {
+            "value": 36
+          },
+          "id": "f2d5dd89-51ab-426d-b3f1-882dd0aeefcd",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000065"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_4"
+    },
+    "xp": {
+      "value": 1100
+    },
+    "speed": {
+      "value": 25
+    },
+    "strength_score": {
+      "value": 18
+    },
+    "dexterity_score": {
+      "value": 9
+    },
+    "constitution_score": {
+      "value": 18
+    },
+    "intelligence_score": {
+      "value": 16
+    },
+    "wisdom_score": {
+      "value": 14
+    },
+    "charisma_score": {
+      "value": 16
+    },
+    "skills": {
+      "value": "Athletics +7, Intimidation +6, Perception +5"
+    },
+    "senses": {
+      "value": "passive Perception 15"
+    },
+    "languages": {
+      "value": "Ulurant"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": ""
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "medium"
+    },
+    "type": {
+      "value": "cabal"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Energy Shields"
+            },
+            "trait_description": {
+              "value": "This creature has an energy shield pool of 68 (8d8+32) solar. Damage is applied to its energy shields before its health."
+            },
+            "id": "b4054bbf-32e6-46f9-971f-5ca8556f1f27",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000064"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Vantage Point"
+            },
+            "trait_description": {
+              "value": "As a bonus action, the centurion can use its jetpack to launch up to 30 feet straight up and hover. While hovering it has advantage on firearm weapon attacks and disadvantage on Dexterity saving throws. It can return to the ground as a bonus action, or as a reaction after taking damage."
+            },
+            "id": "75afd363-cca2-4c62-8114-cde0b193012b",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000059"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Multiattack"
+            },
+            "action_description": {
+              "value": "The centurion makes three attacks with its wrist-mounted shortsword."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "28bc9dc5-6224-442b-bcfc-d5709bd941c2",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000060"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Wrist-Mounted Shortsword"
+            },
+            "action_description": {
+              "value": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) solar damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "1ecf926e-420e-4fa4-8c69-d68932547b77",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000061"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Bronto Cannon"
+            },
+            "action_description": {
+              "value": "Payload Firearm Weapon Attack: DC 15, scope 50/80/120 (close), radius 5 ft. Failed save (half on success): 20 (3d10+4) explosive void damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "2da47510-449c-4710-b5fe-48e13aee291a",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000062"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Jetpack (3 uses/brief rest)"
+            },
+            "action_description": {
+              "value": "The centurion uses its jetpack to leap to an unoccupied surface within 100 feet. If it ends this movement airborne, it begins falling."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "44bd90cc-a972-41b2-b85c-7810f7ebc103",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000063"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "strength_saving_throw_modifier": {
+      "value": 7
+    },
+    "dexterity_saving_throw_modifier": {
+      "value": 2
+    },
+    "id": "cabal_centurion",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000066"
+    }
+  }
+}

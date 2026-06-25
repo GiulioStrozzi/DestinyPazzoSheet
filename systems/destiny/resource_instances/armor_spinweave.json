@@ -1,0 +1,70 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Spinweave"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "light"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 12
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "impose_stealth_disadvantage": {
+      "value": false
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 5/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 12500
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "851afafd-ac14-424f-b93a-903dc41bd06b",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000007"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 18
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "fd6d0069-9fda-413d-8bed-b2920ba75b1e",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000008"
+          }
+        }
+      }
+    },
+    "id": "spinweave",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000009"
+    }
+  }
+}

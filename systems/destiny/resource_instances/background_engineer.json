@@ -1,0 +1,122 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Engineer"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Glimmer Tinkerer"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Almost all technologies Guardians use rely on glimmer, so one of the best things anyone can do to improve the efficiency of any technological system is to eliminate wasteful glimmer usage. By careful refinement of glimmer-programming techniques, you have significantly streamlined the synthesis process. When you or your Ghost produce something by programming glimmer, reduce the glimmer cost by 10%."
+                    },
+                    "id": "b28fee0b-d628-4a83-9636-714b2975930c",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000059"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "e2479da3-c0de-4d82-9344-a20b367ca884",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000060"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "technology"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "447caf3e-fc43-41a5-a7c2-e4f84ce75170",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000056"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "investigation"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "4e528245-9cbd-4bc1-8ddb-1fd76be46666",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000057"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Electrician's toolkit"
+            },
+            "id": "8b6c46ab-5e14-4167-8342-2e9fb7c02f00",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000058"
+            }
+          }
+        }
+      ]
+    },
+    "id": "engineer",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000112"
+    }
+  }
+}

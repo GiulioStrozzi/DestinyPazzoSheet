@@ -1,0 +1,76 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Spinwire"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "medium"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 13
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "impose_stealth_disadvantage": {
+      "value": false
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 5/1."
+    },
+    "has_max_bonus": {
+      "value": true
+    },
+    "max_bonus": {
+      "value": 2
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "521f806b-f9c0-47ba-8536-cb4958589fad",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000013"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "9bdd4242-fc18-4d55-8ce6-32b2f97abc40",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000014"
+          }
+        }
+      }
+    },
+    "id": "spinwire",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000015"
+    }
+  }
+}

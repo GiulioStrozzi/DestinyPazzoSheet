@@ -1,0 +1,105 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Shortsword"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "shortsword"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d6"
+                    },
+                    "id": "ffc5cf1c-67ad-4d99-a239-be7a619095cb",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000033"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "piercing"
+            },
+            "id": "7df55c16-8b8d-4284-bbba-7fdc0335172b",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000034"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 3/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 1250
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "409c8c8f-db8f-47a0-ae5b-c5bd77c886e0",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000035"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 7
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "29c15085-bb30-4926-bb28-06bd7200a9be",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000036"
+          }
+        }
+      }
+    },
+    "is_agile": {
+      "value": true
+    },
+    "is_finesse": {
+      "value": true
+    },
+    "id": "shortsword",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000037"
+    }
+  }
+}

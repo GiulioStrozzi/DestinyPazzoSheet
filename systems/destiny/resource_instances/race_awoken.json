@@ -1,0 +1,448 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Awoken"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 30
+    },
+    "ability_score_increases": {
+      "value": [
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 2
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "ddcd0468-5b35-40ff-81f4-f82af30095b9",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000001"
+            }
+          }
+        },
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 1
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "4e35e2f2-bc08-41fe-9f3a-d11927cf3ee6",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000002"
+            }
+          }
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Always a Way Home"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You are always at least vaguely aware of Mara Sov, the Awoken Queen, so long as both you and she are in the same plane of existence. Even when lost, you can use this sense to direct yourself or a vehicle you are operating along a straight path toward her."
+                    },
+                    "id": "0b67c574-ef87-4110-abb3-fa68dbf8f85f",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000004"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "64431792-96df-4278-b071-fa7363368ede",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000005"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Paracausal Resistance"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have advantage on saving throws against spells, Light effects, and Darkness effects."
+                    },
+                    "id": "41f3f9a7-456c-4093-b333-47c753f404d1",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000006"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "35406770-17ec-47ff-ae7c-961545e79aa3",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000007"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Paracausal Sensitivity"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You gain the effects of the Sunsinger's Detect Light and Dark feature."
+                    },
+                    "id": "f463e434-b294-4fa5-93a0-43842d584efe",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000008"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "28c63504-6ae5-4954-8943-195863d6a47f",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000009"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Psychokinesis"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have the ability to move or manipulate objects by thought. As your action, you can exert your will on one object that you can see that is within a number of feet equal to 5 times your proficiency bonus, and that doesn't weigh more than 10 pounds. If the object isn't being worn or carried, you can automatically move it up to 30 feet in any direction, but not beyond the range of this trait.\n\nIf the object is worn or carried by a creature, you must make a Charisma ability check contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this trait.\n\nYou can exert fine control on objects with your psychokinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial. You can affect the same object round after round, or choose a new one at any time. If you switch objects, the prior object is no longer affected by your psychokinesis."
+                    },
+                    "id": "b71636ef-3b16-4800-b33e-17ce99b6e486",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000010"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "4ac2a517-b57e-408b-9e38-9b9c7965f855",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000011"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "City common"
+            },
+            "id": "dafece35-69d2-49d0-a55b-291c8a79e8bb",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000003"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Reefborn"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Agile Movement"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Moving through an opening one size smaller than you does not count as difficult terrain for you. You have advantage on Dexterity (Acrobatics) checks you make in zero gravity."
+                            },
+                            "id": "53d89952-cbdb-4564-8057-f933749dab8d",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000014"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "3f0f5aeb-ccec-45f2-85c7-ec559d5edf3a",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000015"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": [
+                {
+                  "resource_id": "levelled_choice_text",
+                  "stats": {
+                    "options": {
+                      "value": "Awoken Speech"
+                    },
+                    "id": "f7f581f4-f695-4981-bf1b-5a4a352b78b6",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000012"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "levelled_choice_text",
+                  "stats": {
+                    "options": {
+                      "value": "Eliksni (optional)"
+                    },
+                    "id": "6ab9f42a-7728-4976-9281-31cfb9e08474",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000013"
+                    }
+                  }
+                }
+              ]
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "awoken_reefborn",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000016"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Earthborn"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Natural Athlete"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You have your choice of either a swimming speed or climbing speed equal to your base walking speed."
+                            },
+                            "id": "4db20d9b-5107-4be9-9ac3-759d577d37a8",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000018"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "6abe5c3f-6cf2-4750-8798-dd8815c614d2",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000019"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": [
+                {
+                  "resource_id": "levelled_choice_text",
+                  "stats": {
+                    "options": {
+                      "value": "Choose 1 modern human language"
+                    },
+                    "id": "b8bd9488-9ef3-4c4a-ae72-7dd747c3ab7f",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000017"
+                    }
+                  }
+                }
+              ]
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "awoken_earthborn",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000020"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "awoken",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000021"
+    }
+  }
+}

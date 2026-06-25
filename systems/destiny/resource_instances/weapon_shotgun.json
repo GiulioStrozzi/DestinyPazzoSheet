@@ -1,0 +1,117 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Shotgun"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "shotgun"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d10"
+                    },
+                    "id": "9e82577d-ed4e-4a89-be47-94d1529c4488",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000115"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "60874fc7-1bdc-48cc-9936-97d007cc9740",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000116"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "85d691f3-3688-420c-8821-2bb7b835b429",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000117"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "36c5809c-8474-48e3-a90e-7be5eb5451ee",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000118"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 5
+    },
+    "scope": {
+      "value": "10/15/20"
+    },
+    "range_band": {
+      "value": "close"
+    },
+    "is_high_recoil": {
+      "value": true
+    },
+    "id": "shotgun",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000119"
+    }
+  }
+}

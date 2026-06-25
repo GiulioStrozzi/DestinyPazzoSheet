@@ -1,0 +1,70 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Half-plast"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "heavy"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 14
+    },
+    "modifier": {
+      "value": "none"
+    },
+    "impose_stealth_disadvantage": {
+      "value": false
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 5/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "7a475bfe-b0e2-42bd-882d-d9b078d5ae70",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000025"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 45
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "0e80a1d1-1800-417d-92f5-c4ce302dc616",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000026"
+          }
+        }
+      }
+    },
+    "id": "half_plast",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000027"
+    }
+  }
+}

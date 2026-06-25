@@ -1,0 +1,147 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "New Monarchist"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Royalist"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Members of New Monarchy are expected to represent the faction's ideology in whatever circles they move, as well as commit some amount of time, effort, or resources to the faction. Your sponsor or leader in New Monarchy may call on you to perform tasks for the faction, to levy glimmer or other resources, or to invite you to represent the faction in some way. In return for your contributions, you have access to New Monarchy's stores of weapons, armor, and supplies, and can request loans or donations of equipment and resources to fulfill situational needs."
+                    },
+                    "id": "c28024af-4a1b-43a6-bb2f-6b56954e3ff1",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000086"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "0757b53a-8668-42e4-9d32-53bfcd2e5172",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000087"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Kingmaker"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have secured respected standing in the faction leadership, and are well known to the executors. You have considerable influence within the faction, effectively enabling you to command other members of lower standing, and entitling you to draw upon New Monarchy's considerable material wealth and political influence. Additionally, your favored status enables you to stand somewhat apart from the City's government and the Vanguard. You may receive information typically only available to the Consensus, and New Monarchy's leaders may offer political protection if you should run afoul of the Vanguard or other authorities."
+                    },
+                    "id": "7bb2dd3a-b3be-483e-af63-e74a2dbfbe7a",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000088"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "57d3a2a4-d462-4bd2-adc9-86c63d21c8f2",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000089"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "persuasion"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "e76cc3e5-b877-4391-8967-862acec6c248",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000084"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "deception",
+                "intimidation"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "7e67c198-5cc6-4cd0-86b5-0b80087be426",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000085"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "id": "new_monarchist",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000117"
+    }
+  }
+}

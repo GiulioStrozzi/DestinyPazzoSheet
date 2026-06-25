@@ -1,0 +1,76 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Spinplate"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "medium"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 15
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "impose_stealth_disadvantage": {
+      "value": true
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 5/1."
+    },
+    "has_max_bonus": {
+      "value": true
+    },
+    "max_bonus": {
+      "value": 2
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "a0b0fbc3-46b4-4be7-a039-5ee8280b3341",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000022"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 45
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "3172bee4-f992-4041-afa9-7b328925bd8a",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000023"
+          }
+        }
+      }
+    },
+    "id": "spinplate",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000024"
+    }
+  }
+}

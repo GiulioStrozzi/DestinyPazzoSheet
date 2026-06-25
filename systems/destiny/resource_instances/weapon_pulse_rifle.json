@@ -1,0 +1,117 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Pulse Rifle"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "pulse_rifle"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": true
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 2
+                    },
+                    "dice_type": {
+                      "value": "d4"
+                    },
+                    "id": "40279205-d00a-415d-97bc-781a4569e74e",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000065"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "c72f2b07-aada-4cc9-8cef-b3f9a0077c11",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000066"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "e1f8eed9-b87a-48d4-b4d5-f24476386bdc",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000067"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 9
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "c94fdab9-db92-421f-9dd2-55769f1baec0",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000068"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_finesse": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 5
+    },
+    "scope": {
+      "value": "20/60/120"
+    },
+    "range_band": {
+      "value": "medium"
+    },
+    "id": "pulse_rifle",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000069"
+    }
+  }
+}

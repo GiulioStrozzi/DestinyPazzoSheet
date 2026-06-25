@@ -1,0 +1,238 @@
+{
+  "id": "weapon_types",
+  "name": "Weapon types",
+  "types": [
+    {
+      "id": "club",
+      "name": "Club"
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger"
+    },
+    {
+      "id": "greatclub",
+      "name": "Greatclub"
+    },
+    {
+      "id": "handaxe",
+      "name": "Handaxe"
+    },
+    {
+      "id": "javelin",
+      "name": "Javelin"
+    },
+    {
+      "id": "light_hammer",
+      "name": "Light hammer"
+    },
+    {
+      "id": "mace",
+      "name": "Mace"
+    },
+    {
+      "id": "quarterstaff",
+      "name": "Quarterstaff"
+    },
+    {
+      "id": "sickle",
+      "name": "Sickle"
+    },
+    {
+      "id": "spear",
+      "name": "Spear"
+    },
+    {
+      "id": "firearm",
+      "name": "Firearm"
+    },
+    {
+      "id": "crossbow_light",
+      "name": "Crossbow, light"
+    },
+    {
+      "id": "dart",
+      "name": "Dart"
+    },
+    {
+      "id": "shortbow",
+      "name": "Shortbow"
+    },
+    {
+      "id": "sling",
+      "name": "Sling"
+    },
+    {
+      "id": "battleaxe",
+      "name": "Battleaxe"
+    },
+    {
+      "id": "flail",
+      "name": "Flail"
+    },
+    {
+      "id": "glaive",
+      "name": "Glaive"
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe"
+    },
+    {
+      "id": "greatsword",
+      "name": "Greatsword"
+    },
+    {
+      "id": "halberd",
+      "name": "Halberd"
+    },
+    {
+      "id": "lance",
+      "name": "Lance"
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword"
+    },
+    {
+      "id": "maul",
+      "name": "Maul"
+    },
+    {
+      "id": "morningstar",
+      "name": "Morningstar"
+    },
+    {
+      "id": "pike",
+      "name": "Pike"
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier"
+    },
+    {
+      "id": "scimitar",
+      "name": "Scimitar"
+    },
+    {
+      "id": "shortsword",
+      "name": "Shortsword"
+    },
+    {
+      "id": "trident",
+      "name": "Trident"
+    },
+    {
+      "id": "war_pick",
+      "name": "War, pick"
+    },
+    {
+      "id": "warhammer",
+      "name": "Warhammer"
+    },
+    {
+      "id": "whip",
+      "name": "Whip"
+    },
+    {
+      "id": "blowgun",
+      "name": "Blowgun"
+    },
+    {
+      "id": "crossbow_hand",
+      "name": "Crossbow, hand"
+    },
+    {
+      "id": "crossbow_heavy",
+      "name": "Crossbow, heavy"
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow"
+    },
+    {
+      "id": "net",
+      "name": "Net"
+    },
+    {
+      "id": "unarmed_strike",
+      "name": "Unarmed strike"
+    },
+    {
+      "id": "broadsword",
+      "name": "Broadsword"
+    },
+    {
+      "id": "smallsword",
+      "name": "Smallsword"
+    },
+    {
+      "id": "heavy_maul",
+      "name": "Heavy Maul"
+    },
+    {
+      "id": "throwing_hammer",
+      "name": "Throwing hammer"
+    },
+    {
+      "id": "combat_bow",
+      "name": "Combat bow"
+    },
+    {
+      "id": "auto_rifle",
+      "name": "Auto rifle"
+    },
+    {
+      "id": "hand_cannon",
+      "name": "Hand cannon"
+    },
+    {
+      "id": "pulse_rifle",
+      "name": "Pulse rifle"
+    },
+    {
+      "id": "scout_rifle",
+      "name": "Scout rifle"
+    },
+    {
+      "id": "sidearm",
+      "name": "Sidearm"
+    },
+    {
+      "id": "submachine_gun",
+      "name": "Submachine gun"
+    },
+    {
+      "id": "trace_rifle",
+      "name": "Trace rifle"
+    },
+    {
+      "id": "fusion_rifle",
+      "name": "Fusion rifle"
+    },
+    {
+      "id": "grenade_launcher",
+      "name": "Grenade launcher"
+    },
+    {
+      "id": "light_machine_gun",
+      "name": "Light machine gun"
+    },
+    {
+      "id": "linear_fusion_rifle",
+      "name": "Linear fusion rifle"
+    },
+    {
+      "id": "rocket_launcher",
+      "name": "Rocket launcher"
+    },
+    {
+      "id": "shotgun",
+      "name": "Shotgun"
+    },
+    {
+      "id": "sniper_rifle",
+      "name": "Sniper rifle"
+    }
+  ]
+}

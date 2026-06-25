@@ -1,0 +1,154 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Farpiercer"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": "light armor"
+    },
+    "armor_class": {
+      "value": 14
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 8
+          },
+          "dice_type": {
+            "value": "d8"
+          },
+          "constant": {
+            "value": 8
+          },
+          "id": "1495e6e5-9570-4f63-aa87-afd03e93c100",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000035"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_1"
+    },
+    "xp": {
+      "value": 200
+    },
+    "speed": {
+      "value": 30
+    },
+    "strength_score": {
+      "value": 12
+    },
+    "dexterity_score": {
+      "value": 16
+    },
+    "constitution_score": {
+      "value": 12
+    },
+    "intelligence_score": {
+      "value": 13
+    },
+    "wisdom_score": {
+      "value": 15
+    },
+    "charisma_score": {
+      "value": 10
+    },
+    "skills": {
+      "value": "Acrobatics +5, Athletics +3, Perception +4, Stealth +5"
+    },
+    "senses": {
+      "value": "darkvision 80 ft., passive Perception 14"
+    },
+    "languages": {
+      "value": "Eliksni"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": ""
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "medium"
+    },
+    "type": {
+      "value": "eliksni"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Superior Tactics"
+            },
+            "trait_description": {
+              "value": "The farpiercer can take the Aim, Dash, Disengage, or Hide action as a bonus action on its turn."
+            },
+            "id": "7b5a0b7f-2118-4204-a0e1-261f9dd62532",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000033"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Wire Rifle"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +5 to hit, scope 15/120/340 (long), one target. Hit: 10 (2d6+3) arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "ba44ebc7-3bd3-49c8-ba94-26770ba94b07",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000034"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "climb_speed": {
+      "value": 30
+    },
+    "strength_saving_throw_modifier": {
+      "value": 3
+    },
+    "dexterity_saving_throw_modifier": {
+      "value": 5
+    },
+    "id": "eliksni_farpiercer",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000036"
+    }
+  }
+}

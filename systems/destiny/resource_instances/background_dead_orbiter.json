@@ -1,0 +1,171 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Dead Orbiter"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Satellite"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "As a rank-and-file member of Dead Orbit, you contribute resources and effort to the faction's mission of salvaging and constructing ships. Your membership may require you to donate glimmer or materials to the cause, or report information pertinent to the leadership's objectives. In exchange for your service, your supervising arach and other contacts in Dead Orbit can provide you gear from the faction armory, access to equipment and salvaged technology that may not be easily available otherwise, and will sometimes offer information from Dead Orbit's wide-ranging intelligence-gathering."
+                    },
+                    "id": "6b44e51c-a2d5-470a-8935-0490e8ca9243",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000052"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "24a5729f-85f6-4da8-b163-36363f65ec26",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000053"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Ascending Orbit"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "After long service to Dead Orbit, you have attained moderately high standing in the faction leadership, perhaps even as an arach, a rank blending the roles of chapter leader and ship captain. Other Dead Orbit members heed your authority, and you have some pull within the faction to call for the fleet's support when you need it. The assistance they provide could range from minor things, like delivering supplies or providing transport for small groups, to major interventions such as conducting large salvage operations or full-scale evacuations."
+                    },
+                    "id": "12f7c011-f386-46b4-9ef2-f8d9776ac496",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000054"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "20f9ae11-3525-46d6-bce9-7e350dfff95e",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000055"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "investigation"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "0c6729ae-2ba1-4aea-b444-cde819a83015",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000048"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "survival"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "7e515349-cc87-4dc7-84c0-767ce5a97818",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000049"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Electronics toolkit"
+            },
+            "id": "efc3c357-c3ea-49da-9293-99e589b7e6bd",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000050"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Vehicle toolkit"
+            },
+            "id": "1c07d1e0-5ddb-4bb7-a6f7-58a49af3735b",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000051"
+            }
+          }
+        }
+      ]
+    },
+    "id": "dead_orbiter",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000111"
+    }
+  }
+}

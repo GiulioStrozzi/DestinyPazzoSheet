@@ -1,0 +1,811 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Krill"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 30
+    },
+    "ability_score_increases": {
+      "value": []
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Darkvision"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "The krill's three eyes were adapted for the murky conditions of living inside a gas giant, and see well in low-light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+                    },
+                    "id": "1dad7b7a-f5be-4287-8ad9-c4917f11e515",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000147"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "4bd1476b-7d7e-4153-a021-aedfad15b89e",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000148"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Wary Hypnogogia"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Constantly threatened by predators, krill cannot afford unconscious rest. Instead, you enter a shallow trance, remaining semiconscious for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+                    },
+                    "id": "d7f10112-04a6-4e44-a130-12c32252f4df",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000149"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "a866ed3d-60a3-497e-ae3c-c3f5dd076866",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000150"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Morphology"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You start as the acolyte morph. Whenever you increase in level, so long as you meet the level requirement of a different morph, you can choose to alter yourself to adopt it. This change is permanent and cannot be reversed. If you choose to do this, you lose the traits of the acolyte morph and gain the traits of the new morph you chose."
+                    },
+                    "id": "6a7e4c5c-1eb0-4f19-aaa6-3e81ab5bde87",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000151"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "77d0cace-54ea-4e30-b98d-e651e839ebd6",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000152"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Krill"
+            },
+            "id": "48d035a0-769b-4e32-83cd-d0a9060255c6",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000146"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Acolyte Morph"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": [
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 1
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "1cf6f806-dd8a-4307-bc9e-ba71e73ed274",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000153"
+                    }
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Acolyte Ability Score Increase"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "One ability score of your choice increases by 1. When you adopt a new morph, this score is reduced by 1. Instead of choosing a new morph, you can choose to make the acolyte morph your permanent form, which you can do at any time. If you make the acolyte morph permanent, you can choose one ability score to increase by 2."
+                            },
+                            "id": "0d4f05ad-adf5-4bd8-8bb9-29e891cd0cae",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000154"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "0af336b7-0c8d-459e-9c3c-77c9be253d98",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000155"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Cunning Movement"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Moving through an opening one size smaller than you does not count as difficult terrain for you. You can take the Disengage action as a bonus action on your turn."
+                            },
+                            "id": "12b7a3ef-57df-4353-b546-d2d788dc13e0",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000156"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "5a3c9068-0298-4013-b1d2-35ee38bbd00e",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000157"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Keen Eye"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you make a ranged attack roll and miss, you can choose to re-roll your attack roll once. You must use the new roll, and you must complete a short or long rest before you can use this trait again."
+                            },
+                            "id": "81a9af11-85f2-4e75-a57c-db3cfdd7bbcd",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000158"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "63692907-ec95-4093-a810-9526940bb209",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000159"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "krill_acolyte",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000160"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Knight Morph"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": [
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 2
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "constitution",
+                        "charisma"
+                      ]
+                    },
+                    "id": "0dcb00a4-22f3-4a3e-8fd6-14865035612f",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000161"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 1
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "204765bc-ddd8-4ec0-851b-91878cf56ee0",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000162"
+                    }
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Level Requirements"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You can choose the knight morph beginning when you reach 2nd level."
+                            },
+                            "id": "74f0d7f8-8028-4db3-ae92-679a5ed764a4",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000163"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "cce093e8-61dc-405a-b59c-b330bcf8d10d",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000164"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Chitinous Plating"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You have natural chitinous armor. You have disadvantage on Dexterity (Stealth) checks. While unarmored, your AC is equal to 13 + your Constitution modifier. Even while wearing armor, you can use this natural armor to determine your AC if the armor you are wearing would leave you with a lower AC. You are still subject to the effects of the armor you are wearing if you do this."
+                            },
+                            "id": "14acd55f-e709-47b4-a771-589127939bcb",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000165"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "69ae3630-7d43-4dc1-bbb6-6320a24952f5",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000166"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Fortified"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If a creature scores a critical hit against you, you can cause the critical hit to become a normal hit instead. Once you use this trait, you must complete a long rest before you can use it again."
+                            },
+                            "id": "974415dc-da32-4730-a658-a0d48c6dcd3d",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000167"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "4fb09d5e-ab99-4b49-bd92-f5ee97a84514",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000168"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Heavyweight"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You count as one size larger when determining your weight limit, when determining the result of effects that target creatures of specific sizes, and for determining what you can grapple, shove, or ride as a mount."
+                            },
+                            "id": "096a505a-200c-41ca-b263-f4c6457f950c",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000169"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "85883cc4-603d-47b6-82c7-f9d147ea745e",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000170"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "krill_knight",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000171"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Mother Morph"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": [
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 2
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "dexterity",
+                        "wisdom",
+                        "intelligence"
+                      ]
+                    },
+                    "id": "95bcead8-fd1f-4b39-b7ba-1a056d6a1c72",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000172"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 1
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "43ccdfea-8b9e-4ee5-8f76-0ff2331c648d",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000173"
+                    }
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Level Requirements"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You can choose the mother morph beginning when you reach 4th level."
+                            },
+                            "id": "fcecec42-67eb-4f4c-bf9d-79cbaa20a4d1",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000174"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "f7fc6007-8248-46e8-b13b-0e55607bb3ec",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000175"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Evasive Flight"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Your ability to move freely while airborne grants you the effects of a natural armor equal to 12 + your Dexterity modifier. You can use this in place of your normal armor while airborne, if this would grant you a higher AC. You are still subject to the effects of the armor you are wearing when you do this."
+                            },
+                            "id": "ecc95e83-fd26-432a-8bda-3642c37747e1",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000176"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "16a9cf7b-939a-41fb-a53e-0e9d4835b4fd",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000177"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Flight"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You have a flying speed equal to your base walking speed, and you can hover in place while flying. You cannot begin flying if you are carrying a weight that is greater than half your weight limit, and if you are flying when you acquire this weight, you begin to fall. If you are incapacitated while airborne, you begin to fall."
+                            },
+                            "id": "9c47c462-8504-4b90-b5f3-56a084b6723d",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000178"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "30c0660f-a5f5-40b5-99fa-6745d3e0fac3",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000179"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Paperweight"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You count as one size smaller when determining your weight limit, and for determining what you can grapple, shove, or ride as a mount."
+                            },
+                            "id": "505e2754-8f47-4fc0-b22f-7b91c1664468",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000180"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "2c24acab-69ba-4d37-ad82-bec6b73cce1d",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000181"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "fly_speed": {
+              "value": 30
+            },
+            "id": "krill_mother",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000182"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "krill",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000183"
+    }
+  }
+}

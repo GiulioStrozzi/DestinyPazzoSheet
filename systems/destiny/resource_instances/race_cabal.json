@@ -1,0 +1,557 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Cabal"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 25
+    },
+    "ability_score_increases": {
+      "value": [
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 2
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "4b0d5051-13f0-46d5-a47e-1382141ccbe7",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000079"
+            }
+          }
+        },
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 1
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "9029dda7-c2a6-4e0f-9b7b-019da5bebfda",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000080"
+            }
+          }
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Heavyweight"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You count as one size larger when determining your weight limit, when determining the result of effects that target creatures of specific sizes, and for determining what you can grapple, shove, or ride as a mount."
+                    },
+                    "id": "dd3c364d-c572-4ed1-8c25-c9f4e699daca",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000082"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "250b6e71-f781-42b1-9b63-da3aa31bdeec",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000083"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Powerful Stature"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have advantage on saving throws you make to prevent yourself from being knocked back or knocked prone, as well as on Strength saving throws or Strength (Athletics) checks you make to prevent yourself from being grappled or shoved."
+                    },
+                    "id": "806c9d4c-c596-44b2-9fcd-a167604005e3",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000084"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "4badcac3-1ecc-431b-bf7d-980c859fa809",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000085"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Tusks (optional)"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "As an optional rule, you can add both the Tusks and the Gore racial traits to your Cabal character. Your tusks are a natural melee weapon that deal 1d6 piercing damage with a reach of 5 feet. You use your Strength modifier to determine the bonus to your attack and damage rolls with your tusks. If your tusks break or fall off, they do not regrow, and you can no longer use your Gore trait."
+                    },
+                    "id": "ea77f32e-4d79-4880-b090-bf4c0da949ff",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000086"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "cba05df6-06f0-4a4a-97ce-92b3a7017c42",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000087"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Gore (optional)"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Requires the Tusks trait. If you have Grappled a target and hit it with a tusk attack, the target takes an extra 1d6 piercing damage. The bonus damage of this trait increases as your level increases. It becomes 1d8 at 5th level, 1d10 at 11th level, and 1d12 at 17th level."
+                    },
+                    "id": "d6e17384-bf28-47fb-be86-a97f004f6f5e",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000088"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "e0be591a-b4ac-4409-a1fc-982c339a5c06",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000089"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Mighty Blow (optional)"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "If you do not choose to add Tusks and Gore to your Cabal character, you can choose to add Mighty Blow instead. When you roll a critical hit with a weapon attack, you can add one of the weapon's damage dice to your damage roll after accounting for the effects of the critical hit."
+                    },
+                    "id": "22042772-d2a8-414d-829b-e35fab6a412f",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000090"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "cb4033a0-065f-42c0-8439-6c819898b94e",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000091"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Ulurant"
+            },
+            "id": "d8a6a8c4-3e39-4662-b2de-8e0754cb0437",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000081"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Calus' Influence"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 25
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Built"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+                            },
+                            "id": "0bdc3abf-959b-4a6d-84ae-c5a569f5e5ef",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000093"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "1a6b0c45-985f-4c94-9cda-698b0a97e448",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000094"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Skills Training"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You are proficient with one skill of your choice."
+                            },
+                            "id": "36eaffeb-e6da-44f8-94a3-6c51fc59f4ab",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000095"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "679dd753-55af-49c0-80c8-d26291371832",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000096"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": [
+                {
+                  "resource_id": "levelled_skill_proficiency",
+                  "stats": {
+                    "options": {
+                      "value": [
+                        "acrobatics",
+                        "animal_handling",
+                        "arcana",
+                        "athletics",
+                        "deception",
+                        "history",
+                        "insight",
+                        "intimidation",
+                        "investigation",
+                        "medicine",
+                        "nature",
+                        "perception",
+                        "performance",
+                        "persuasion",
+                        "religion",
+                        "sleight_of_hand",
+                        "stealth",
+                        "survival",
+                        "technology"
+                      ]
+                    },
+                    "is_expertise": {
+                      "value": false
+                    },
+                    "id": "a0b495c7-f24c-4ec8-a6d9-517b155d0d2b",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000092"
+                    }
+                  }
+                }
+              ]
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "cabal_calus",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000097"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Ghaul's Influence"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 25
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Strong Grip"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You can hold a two-handed weapon in one hand without penalty due to the weapon's bulk, and holding non-weapon objects does not count as dual-wielding for you unless you use the object as a weapon. If you try to hold multiple weapons or use a non-weapon object as a weapon, the bulk of the items affects your ability to attack effectively as normal."
+                            },
+                            "id": "b6670f09-8158-4ede-aba3-8558ee34f3c2",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000098"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "58f729b9-9403-4836-9608-6ff9a028ec3b",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000099"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Unshakable"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you fail an ability check to prevent yourself from becoming Frightened, you can choose to succeed instead. Once you use this trait you must complete a long rest before you can use it again."
+                            },
+                            "id": "f8631ea3-89ec-4d12-ad1d-307ebf85bce7",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000100"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "9770485d-5dcf-47e8-9dbf-8deb01b02d31",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000101"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "cabal_ghaul",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000102"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "cabal",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000103"
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Archon"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": ""
+    },
+    "armor_class": {
+      "value": 16
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 10
+          },
+          "dice_type": {
+            "value": "d12"
+          },
+          "constant": {
+            "value": 40
+          },
+          "id": "56fb236c-7b00-4b6c-8404-8454c262bac0",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000011"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_7"
+    },
+    "xp": {
+      "value": 2900
+    },
+    "speed": {
+      "value": 30
+    },
+    "strength_score": {
+      "value": 20
+    },
+    "dexterity_score": {
+      "value": 12
+    },
+    "constitution_score": {
+      "value": 18
+    },
+    "intelligence_score": {
+      "value": 16
+    },
+    "wisdom_score": {
+      "value": 20
+    },
+    "charisma_score": {
+      "value": 18
+    },
+    "skills": {
+      "value": "Insight +8, Perception +8, Religion +11, and any four others"
+    },
+    "senses": {
+      "value": "darkvision 300 ft., passive Perception 18"
+    },
+    "languages": {
+      "value": "Eliksni and any one other"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": ""
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "huge"
+    },
+    "type": {
+      "value": "eliksni"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Energy Shields"
+            },
+            "trait_description": {
+              "value": "This creature has an energy shield pool of 63 (6d12+24) void. Damage is applied to its energy shields before its health."
+            },
+            "id": "2ea2f093-4737-466b-9735-1b5632194505",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000010"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Presence of the Archon"
+            },
+            "trait_description": {
+              "value": "Allied creatures within 120 feet of the archon who can clearly hear or see it (including the archon) gain these benefits while the archon is not Incapacitated: they are immune to being Frightened (ending it if already Frightened); and if they can make a saving throw at the end of their turn to end an effect, they can make it at the start of their turn instead, with advantage."
+            },
+            "id": "72a78d9c-c4ca-4675-890b-9c7896ff3a35",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000001"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Perseverance (2/long rest)"
+            },
+            "trait_description": {
+              "value": "If the archon fails a saving throw, it can choose to succeed instead."
+            },
+            "id": "2f70ef09-f5c0-4313-a66d-97af78ebb850",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000002"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Multiattack"
+            },
+            "action_description": {
+              "value": "The archon can use its Teleport. It then takes two shots with its shock rifle."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "774d74fe-f8fa-4094-863a-308781b2113f",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000003"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Shock Rifle"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +8 to hit, scope 15/120/240 (medium), one target. Hit: 9 (1d8+5) arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "b7c98ddc-a4da-4f13-9847-83c9c42985d9",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000004"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Teleport"
+            },
+            "action_description": {
+              "value": "The archon teleports to an unoccupied space it can see within 60 feet, taking all carried and worn equipment with it."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "567a99bb-2661-493e-ac7b-8eebf226adfa",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000005"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Legendary Actions"
+            },
+            "action_description": {
+              "value": "The archon can take 3 legendary actions, choosing from the options below. Only one can be used at a time and only at the end of another creature's turn. It regains spent legendary actions at the start of its turn."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "faba5f1d-5e5d-4576-ab21-f8176fd48a34",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000006"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Open Fire"
+            },
+            "action_description": {
+              "value": "The archon makes a firearm weapon attack."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "1a28c35b-e384-47aa-9795-92eb5a601617",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000007"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Recovery Blink (costs 2 actions)"
+            },
+            "action_description": {
+              "value": "The archon teleports to an unoccupied space it can see within 30 feet, taking all equipment with it. It recovers 39 (6d12) shield points and can change the alignment of its energy shields to arc, solar, or void."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "01c625ae-460b-4880-8b4a-a921230eb8ec",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000008"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Direct Attack (costs 3 actions)"
+            },
+            "action_description": {
+              "value": "Up to four allies of the archon who view it as their superior and whose individual CR is less than the archon's can take an action other than a multiattack action."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "ba11e814-089b-43c9-900f-5017cfcd5e58",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000009"
+            }
+          }
+        }
+      ]
+    },
+    "climb_speed": {
+      "value": 20
+    },
+    "wisdom_saving_throw_modifier": {
+      "value": 8
+    },
+    "charisma_saving_throw_modifier": {
+      "value": 7
+    },
+    "id": "eliksni_archon",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000012"
+    }
+  }
+}

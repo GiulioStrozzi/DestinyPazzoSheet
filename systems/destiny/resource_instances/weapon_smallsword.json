@@ -1,0 +1,105 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Smallsword"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "smallsword"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d8"
+                    },
+                    "id": "ef448e04-9550-4203-9467-9ff2dc0a0c09",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000038"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "piercing"
+            },
+            "id": "cc953c14-eb5d-4c16-8c02-4d6b12604c98",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000039"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 3/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "a5363095-e17b-4063-8107-a5a4dc928c34",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000040"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "ea23081e-59ff-4bf1-abe0-c4c25bda80e3",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000041"
+          }
+        }
+      }
+    },
+    "is_one_handed": {
+      "value": true
+    },
+    "is_finesse": {
+      "value": true
+    },
+    "id": "smallsword",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000042"
+    }
+  }
+}

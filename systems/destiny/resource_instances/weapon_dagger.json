@@ -1,0 +1,111 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Dagger"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "dagger"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": true
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d4"
+                    },
+                    "id": "a8a89907-0b75-43d3-8e6a-a85fbefede69",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000001"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "piercing"
+            },
+            "id": "54b20707-5670-4827-bc07-925095ab4147",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000002"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 2/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "866fde78-01a1-41ac-a3c5-f084d2beecc3",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000003"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "f2a308ee-6099-4e83-a2bf-da6777946478",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000004"
+          }
+        }
+      }
+    },
+    "is_agile": {
+      "value": true
+    },
+    "is_finesse": {
+      "value": true
+    },
+    "is_thrown": {
+      "value": true
+    },
+    "thrown_range": {
+      "value": "20/60"
+    },
+    "id": "dagger",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000005"
+    }
+  }
+}

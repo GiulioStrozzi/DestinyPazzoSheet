@@ -1,0 +1,212 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Baron"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": ""
+    },
+    "armor_class": {
+      "value": 16
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 10
+          },
+          "dice_type": {
+            "value": "d10"
+          },
+          "constant": {
+            "value": 30
+          },
+          "id": "4766a927-031b-418a-b838-b5813cd05959",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000018"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_5"
+    },
+    "xp": {
+      "value": 1800
+    },
+    "speed": {
+      "value": 30
+    },
+    "strength_score": {
+      "value": 18
+    },
+    "dexterity_score": {
+      "value": 9
+    },
+    "constitution_score": {
+      "value": 16
+    },
+    "intelligence_score": {
+      "value": 14
+    },
+    "wisdom_score": {
+      "value": 14
+    },
+    "charisma_score": {
+      "value": 16
+    },
+    "skills": {
+      "value": "Athletics +7, Intimidation +6, Perception +5, and any three others"
+    },
+    "senses": {
+      "value": "darkvision 200 ft., passive Perception 15"
+    },
+    "languages": {
+      "value": "Eliksni"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": ""
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "large"
+    },
+    "type": {
+      "value": "eliksni"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Perseverance (1/long rest)"
+            },
+            "trait_description": {
+              "value": "If the baron fails a saving throw, it can choose to succeed instead."
+            },
+            "id": "7a58504e-7d59-4c60-834b-e8aac47f2c1b",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000013"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Multiattack"
+            },
+            "action_description": {
+              "value": "The baron can use its Commanding Presence. It then takes two shots with its shrapnel launcher."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "66c60f14-7a77-4d26-ac86-d5bfc287cb65",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000014"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Shrapnel Launcher"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +7 to hit, scope 15/25/40 (close), one target. Hit: 15 (2d10+4) solar damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "a583f592-f446-4355-8b16-597d20ad687d",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000015"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Commanding Presence (1/brief rest)"
+            },
+            "action_description": {
+              "value": "For 1 minute, whenever a nonhostile creature the baron can see makes an attack roll or saving throw, it can add a d6 to its roll, provided it can hear and understand the baron. A creature can benefit from only one Commanding Presence die at a time. Ends early if the baron is Incapacitated."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "ccc19023-d5a4-4274-b3bc-a020d6a15051",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000016"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Blink (5/brief rest)"
+            },
+            "action_description": {
+              "value": "If subject to a Strength or Dexterity saving throw, or an attack from a source it can perceive, the baron can teleport to an unoccupied space within 30 feet, taking all equipment with it. Doing so grants disadvantage on the attack, or advantage on the baron's saving throw."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "2c85aea8-6af7-4abf-a63f-bb085444d10b",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000017"
+            }
+          }
+        }
+      ]
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "climb_speed": {
+      "value": 20
+    },
+    "strength_saving_throw_modifier": {
+      "value": 7
+    },
+    "constitution_saving_throw_modifier": {
+      "value": 6
+    },
+    "charisma_saving_throw_modifier": {
+      "value": 6
+    },
+    "id": "eliksni_baron",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000019"
+    }
+  }
+}

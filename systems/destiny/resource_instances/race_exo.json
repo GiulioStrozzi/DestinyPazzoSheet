@@ -1,0 +1,725 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Exo"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 30
+    },
+    "ability_score_increases": {
+      "value": []
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Darkvision"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Exo optical sensors are tuned to the human visible spectrum by default, but can also perceive additional wavelengths to achieve superior vision in dark and dim conditions. You can see in dim light within 30 feet of you as if it were bright light, and in darkness as if it were dim light."
+                    },
+                    "id": "99f1ad27-6679-47c2-9994-37aeeb851fd2",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000023"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "395c5520-58f0-4172-bc59-d9a2f0de14d5",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000024"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Living Machine"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Even though you are a machine, your mind and much of the functionality of your body is no different from the average human. As such, you are considered a living creature, and you appear on scanners as one. You are immune to disease. You do not need to eat or drink, but you can if you want to. You do still need to sleep each day, but you typically only sleep for 4-6 hours, gaining the same benefit that a human does from 8 hours of sleep when you do."
+                    },
+                    "id": "a4b9f945-579b-4bea-aec8-2b5faf575f02",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000025"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "b2bffdf4-a80d-410c-964e-57fda56d688e",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000026"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Resistant Design"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You resist poison damage, and you have advantage on saving throws you make to prevent yourself from Burning or becoming Poisoned. You also have advantage on saving throws you make to end an effect on yourself that is causing a Burning or Poisoned condition."
+                    },
+                    "id": "7b6c70e1-005d-4c7d-9cae-d01b996a2876",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000027"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "146589cc-64c8-43f0-8875-b2c790b44059",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000028"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "City common"
+            },
+            "id": "b16c4c5a-d956-4c24-b6e5-b64df15ed54f",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000022"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Model \"AB-U\""
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": [
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 2
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "2f536b06-2747-4f87-ae3b-90e8af0347a3",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000029"
+                    }
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Built"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+                            },
+                            "id": "bac29615-1f3a-4c76-9c2f-a787ea1ca44a",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000030"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "c56a700e-be81-4939-998f-ea1291b4aee7",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000031"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Natural Armor"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You have tough, heavy-duty plating. You have disadvantage on Dexterity (Stealth) checks. When not wearing armor, your AC is equal to 13 + your Constitution modifier. Even while wearing armor, you can use this natural armor to determine your AC if the armor you are wearing would leave you with a lower AC. You are still subject to the effects of the armor you are wearing if you do this."
+                            },
+                            "id": "af755bf3-27d8-4032-b613-d255acc2dd85",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000032"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "e160c516-7b1f-4475-9f91-296903142ef6",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000033"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "exo_ab_u",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000034"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Model \"CT-HD\""
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": [
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 2
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "20ba9de9-fb3d-46d0-82ea-d72257d5c251",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000035"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 1
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "083a1c0a-f070-4908-a488-7c722976f43c",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000036"
+                    }
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Competitive"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you make an attack roll, saving throw, or ability check that fails, you can choose to add a bonus to your attack roll, saving throw, or ability check that is equal to the number of creatures who can see you and that you are aware of (maximum bonus of +5). If using this trait causes you to succeed on your attack roll, ability check, or saving throw, you cannot use this trait again until you complete a short or long rest."
+                            },
+                            "id": "bad7d07b-79ff-49dd-8b7e-4697a8e9c168",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000037"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "7ea6bee0-ca74-4260-b575-62374431d4b4",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000038"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Natural Armor"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "When you aren't wearing armor, your AC is equal to 12 + your Dexterity modifier. Even while wearing armor, you can use this natural armor to determine your AC if the armor you are wearing would leave you with a lower AC. You are still subject to the effects of the armor you are wearing if you do this."
+                            },
+                            "id": "378b723b-c004-49f1-8e6d-4220f7dafb40",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000039"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "b07c8eec-0452-459c-b474-17f5bde2a8ae",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000040"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "exo_ct_hd",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000041"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Model \"JSYK\""
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": [
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 1
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "1802e96d-2db9-4a46-be12-76142f93f0f4",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000042"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 1
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "e42ace18-8b28-4bfc-95c9-794589096e00",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000043"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "ability_score_increase",
+                  "stats": {
+                    "value": {
+                      "value": 1
+                    },
+                    "modifier_options": {
+                      "value": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom",
+                        "charisma"
+                      ]
+                    },
+                    "id": "a52cb025-b9bb-41ad-816c-6e856c2e162e",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000044"
+                    }
+                  }
+                }
+              ]
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Ability Score Increase Option"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "Choose three of your ability scores. Each of those scores increases by 1. Alternatively, you can choose one ability score to increase by 2, and a different ability score to increase by 1."
+                            },
+                            "id": "84df9ae3-a9c3-4271-b938-b622f52d07a5",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000045"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "16f912ba-ac76-4f25-a729-c0ed329525c8",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000046"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Keen Eye"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you make a ranged attack roll and miss, you can choose to re-roll your attack once. You must use the new roll, and you must complete a short or long rest before you can use this trait again."
+                            },
+                            "id": "9209a093-bfdf-4c40-8fcb-a02395740ae2",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000047"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "1c960847-3158-44c6-b2b5-5135c626960e",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000048"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Natural Armor"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "When you aren't wearing armor, your AC is equal to 15. Even while wearing armor, you can use this natural armor to determine your AC if the armor you are wearing would leave you with a lower AC. You are still subject to the effects of the armor you are wearing if you do this."
+                            },
+                            "id": "5ba05ab9-6d8a-4b84-aef7-d2796475bed6",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000049"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "dac9d19d-a952-4944-aa9a-77e8bb33eda2",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000050"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Superior Sensors"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "The range of your darkvision increases to 60 feet. When you make a Wisdom (Perception) check, you can roll a d4 and add it to your total."
+                            },
+                            "id": "cd548032-c7a1-4798-af55-987cdeedbd26",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000051"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "1aafe423-881e-4b05-a80a-baf9ee4e79d9",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000052"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "exo_jsyk",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000053"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "exo",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000054"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Cryptarch"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Scholar"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You can access the basic Cryptarch archives and can decode engrams at no cost. For whatever you don't know, you know how to contact someone who does know, be they in your own department or not. You can also borrow basic, unrestricted equipment from your department of study for predetermined lengths of time."
+                    },
+                    "id": "21d50768-5d0e-41cd-abaf-0a57bb67162a",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000044"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "984cebe8-33fb-4f05-ae50-1681f5321562",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000045"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Leading Expert"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "After dedicating yourself to an area of study for some time you have become a foremost authority in that field. Other scholars and students defer to your knowledge and wisdom in your chosen area, and you have access to the Cryptarchy's restricted files and equipment related to your field. You also have a friend or two in the departments of other areas of study, and should you need something you can't access yourself, they may be able to quietly provide it for you."
+                    },
+                    "id": "9d25bb1d-75a2-49f2-8cde-448bfc82862a",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000046"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "e51f8f1d-2925-40fb-b6b9-afdf4587082f",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000047"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "investigation"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "0319b314-7518-4c21-b211-1e82a6f6448e",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000041"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "insight"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "9051f931-0266-488e-b9a0-491f476be979",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000042"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Choose any two toolkits or two languages, or one toolkit and one language"
+            },
+            "id": "71abab26-06b1-4b07-9126-a6b883128088",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000043"
+            }
+          }
+        }
+      ]
+    },
+    "id": "cryptarch",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000110"
+    }
+  }
+}

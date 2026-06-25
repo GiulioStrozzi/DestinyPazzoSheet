@@ -1,0 +1,166 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Dreg"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": "light armor"
+    },
+    "armor_class": {
+      "value": 13
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 2
+          },
+          "dice_type": {
+            "value": "d8"
+          },
+          "constant": {
+            "value": -2
+          },
+          "id": "ea600462-3ca2-4953-8bc8-57fa9c8fac18",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000031"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_1_8"
+    },
+    "xp": {
+      "value": 25
+    },
+    "speed": {
+      "value": 30
+    },
+    "strength_score": {
+      "value": 12
+    },
+    "dexterity_score": {
+      "value": 12
+    },
+    "constitution_score": {
+      "value": 9
+    },
+    "intelligence_score": {
+      "value": 10
+    },
+    "wisdom_score": {
+      "value": 12
+    },
+    "charisma_score": {
+      "value": 8
+    },
+    "skills": {
+      "value": "Stealth +3"
+    },
+    "senses": {
+      "value": "darkvision 60 ft., passive Perception 11"
+    },
+    "languages": {
+      "value": "Eliksni"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": ""
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "medium"
+    },
+    "type": {
+      "value": "eliksni"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Mob Mentality"
+            },
+            "trait_description": {
+              "value": "The dreg has advantage on weapon attacks against a target if the target has been attacked by an ally within 5 feet of the dreg before the start of the dreg's turn."
+            },
+            "id": "d5828bfa-fc10-4adc-abab-3144f7416c7f",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000028"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Shock Pistol"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +3 to hit, scope 20/30/40 (close), one target. Hit: 4 (1d6+1) arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "cd2b2094-6563-4e26-9a7b-5a0c44a10c2b",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000029"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Shock Dagger"
+            },
+            "action_description": {
+              "value": "Melee Weapon Attack: +3 to hit, reach 5 ft. or thrown 20/30 ft., one target. Hit: 3 (1d4+1) arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "a9fe4557-5033-4818-93f9-f433ccad46d9",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000030"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": []
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "climb_speed": {
+      "value": 20
+    },
+    "id": "eliksni_dreg",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000032"
+    }
+  }
+}

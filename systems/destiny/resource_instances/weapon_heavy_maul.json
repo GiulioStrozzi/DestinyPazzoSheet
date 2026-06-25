@@ -1,0 +1,105 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Heavy Maul"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "heavy_maul"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 2
+                    },
+                    "dice_type": {
+                      "value": "d6"
+                    },
+                    "id": "08387757-3529-4b93-952a-44343f99e6df",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000028"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "bludgeoning"
+            },
+            "id": "2706d434-9eb1-42a9-9aad-65cf218d6217",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000029"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "bdd5f47e-f487-4631-994f-6194c3ab158c",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000030"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "0c2cda04-3aba-4bce-b627-2876cbe6e63e",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000031"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_heavy": {
+      "value": true
+    },
+    "id": "heavy_maul",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000032"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "damage_types",
+  "name": "Damage type",
+  "plural": "Damage types",
+  "types": [
+    {
+      "id": "bludgeoning",
+      "name": "Bludgeoning"
+    },
+    {
+      "id": "piercing",
+      "name": "Piercing"
+    },
+    {
+      "id": "slashing",
+      "name": "Slashing"
+    },
+    {
+      "id": "kinetic",
+      "name": "Kinetic"
+    },
+    {
+      "id": "arc",
+      "name": "Arc"
+    },
+    {
+      "id": "solar",
+      "name": "Solar"
+    },
+    {
+      "id": "void",
+      "name": "Void"
+    },
+    {
+      "id": "darkness",
+      "name": "Darkness"
+    },
+    {
+      "id": "stasis",
+      "name": "Stasis"
+    },
+    {
+      "id": "strand",
+      "name": "Strand"
+    },
+    {
+      "id": "acid",
+      "name": "Acid"
+    },
+    {
+      "id": "cold",
+      "name": "Cold"
+    },
+    {
+      "id": "fire",
+      "name": "Fire"
+    },
+    {
+      "id": "force",
+      "name": "Force"
+    },
+    {
+      "id": "lightning",
+      "name": "Lightning"
+    },
+    {
+      "id": "necrotic",
+      "name": "Necrotic"
+    },
+    {
+      "id": "poison",
+      "name": "Poison"
+    },
+    {
+      "id": "psychic",
+      "name": "Psychic"
+    },
+    {
+      "id": "radiant",
+      "name": "Radiant"
+    },
+    {
+      "id": "thunder",
+      "name": "Thunder"
+    },
+    {
+      "id": "magic",
+      "name": "Magic"
+    }
+  ]
+}

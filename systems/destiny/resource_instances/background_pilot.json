@@ -1,0 +1,124 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Pilot"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Spacenoid"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "However you acquired and used your piloting skills, your love of jumpships has led you to spend a great deal of time in space. You cannot become disoriented in microgravity or zero-gravity conditions. Your familiarity with interplanetary traffic and typical flight paths enables you to avoid certain unnatural hazards of space travel, like pirates and other ship-based attackers. Whether or not you own a jumpship of your own, your connections to other pilots probably enable you to find a ship in a pinch (at your Architect's discretion)."
+                    },
+                    "id": "1c66cd6b-bb5f-455d-b333-abf25e2f8728",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000099"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "ac41f7c3-ba38-4cf6-aead-a84031863174",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000100"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "technology"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "d43d5089-6975-423b-8a77-b38337c53e12",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000096"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "investigation",
+                "insight",
+                "performance"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "26f6307e-f42c-4d5c-acc4-c02d7eb9fca9",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000097"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Vehicle toolkit"
+            },
+            "id": "06203b96-1a84-4ce7-acfd-c64b14a95f81",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000098"
+            }
+          }
+        }
+      ]
+    },
+    "id": "pilot",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000119"
+    }
+  }
+}

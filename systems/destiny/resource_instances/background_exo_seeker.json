@@ -1,0 +1,110 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Exo Seeker"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Tortured Dreams"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Almost every Exo knows the dream of a vast battlefield, an endless war, dying friends, and a dark place, somehow familiar. In your quest to learn about these dreams, you have interviewed many other Exos, and developed a network of Exo acquaintances and contacts. You were resurrected in possession of an unidentified relic (a data-storage device, a book of notes, or an image of a place you feel drawn to) or an uncanny, vivid memory of a location, or possibly both. This item or location features prominently in your recurring Exo nightmares, and you have heard other Exos mention it as well."
+                    },
+                    "id": "50496c6d-2f27-446b-a18f-c0c9afc9d503",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000063"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "9f9a56dd-1184-46e8-97df-a9d9bb13ac0d",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000064"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "history"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "9d3c6f4f-c228-46d7-a42c-acdc7d12ea96",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000061"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "investigation",
+                "technology"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "6ed18f4d-8ed8-43b7-bf95-2f3a388272b3",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000062"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "id": "exo_seeker",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000113"
+    }
+  }
+}

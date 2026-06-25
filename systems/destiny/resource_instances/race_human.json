@@ -1,0 +1,548 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Human"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 30
+    },
+    "ability_score_increases": {
+      "value": [
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 2
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "740d0432-4624-49ce-89e7-bdfda96228f3",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000055"
+            }
+          }
+        },
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 1
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "215bbc5e-f3b3-4efc-919b-8f80c315505d",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000056"
+            }
+          }
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Adrenaline Rush"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "If you take damage that would reduce you to half hit points or less, but leaves you with at least 1 hit point remaining, you can use your reaction to begin an adrenaline rush. For the next minute, the following benefits apply:\n\n- You ignore the effects of the first three levels of exhaustion, and cannot accumulate any additional levels of exhaustion.\n- You have advantage on Strength saving throws and Strength (Athletics) checks you make.\n- The rush of adrenaline allows you to ignore small portions of the damage you take. Whenever you take damage, you reduce the damage you take by an amount equal to 1d6 + your Constitution modifier. If the amount that would be reduced is 0 or less, this does nothing instead.\n- If you take damage that would reduce you to 0 hit points or less, you can choose to drop to 1 hit point instead. You can only do this once during your adrenaline rush.\n\nThis effect ends early if you are Incapacitated or if you receive healing. Upon ending, you immediately gain two levels of exhaustion, and you take an amount of damage equal to the total amount you ignored during your adrenaline rush. You must complete a long rest in order to invoke this trait again."
+                    },
+                    "id": "fc54c25d-8f3f-4f75-bacf-671bbf872020",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000059"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "07c83dfa-c19b-45be-94d1-507c1bb0efb3",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000060"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "The Strength of Humanity"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "If a creature you can see is reduced to 0 hit points, you can choose to use your reaction to begin the effects of your Adrenaline Rush."
+                    },
+                    "id": "5cf7d2e2-da4f-4dea-9f5f-51f4c88e9ffa",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000061"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "289591b3-267b-4fc9-bbf2-608eebabfa8f",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000062"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "City common"
+            },
+            "id": "be25b570-ee89-4a1d-a6c5-c70c4f356edb",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000057"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Choose 1 modern human language"
+            },
+            "id": "0ac4fc9f-1489-4a3f-9bd2-477da3a6a830",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000058"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Citizen"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "School Studies"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You are proficient with one skill of your choice."
+                            },
+                            "id": "d83a6d96-efe3-4101-bbe2-2bdb466782ca",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000064"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "8c5e951d-0b67-42c2-bdc9-84008392effb",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000065"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Urban Hobbies"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You can choose one toolkit, vehicle, modern human language, or ancient human language to become proficient with. Proficiency with a language means you can speak, read, and write that language."
+                            },
+                            "id": "ab77e910-9e0e-47ec-903a-f52d6a992804",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000066"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "03c0799f-92ba-403f-95bb-75815a59ee68",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000067"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": [
+                {
+                  "resource_id": "levelled_skill_proficiency",
+                  "stats": {
+                    "options": {
+                      "value": [
+                        "acrobatics",
+                        "animal_handling",
+                        "arcana",
+                        "athletics",
+                        "deception",
+                        "history",
+                        "insight",
+                        "intimidation",
+                        "investigation",
+                        "medicine",
+                        "nature",
+                        "perception",
+                        "performance",
+                        "persuasion",
+                        "religion",
+                        "sleight_of_hand",
+                        "stealth",
+                        "survival",
+                        "technology"
+                      ]
+                    },
+                    "is_expertise": {
+                      "value": false
+                    },
+                    "id": "d11331bc-57b4-4946-b078-1bfee4a326ce",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000063"
+                    }
+                  }
+                }
+              ]
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "human_citizen",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000068"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Pilgrim"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Survivor's Luck"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you make an attack roll, saving throw, or ability check and roll a 1 on the d20, you can choose to re-roll once. You must use the new roll. You regain use of this trait when you complete a brief rest."
+                            },
+                            "id": "ee855489-1a02-400e-b819-cfe9b6b62c8b",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000069"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "857cc5aa-c40e-49fc-9c2f-3fcef327ca0a",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000070"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "human_pilgrim",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000071"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Wayfarer"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 30
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Ship Mechanic"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You are proficient with jumpships and other spacefaring vehicles, and can double your proficiency bonus when making an ability check to operate, repair, hide within, or recall information about spaceships. Your ability check can only benefit from this bonus if it is not already benefiting from a feature or trait that doubles your proficiency bonus for it."
+                            },
+                            "id": "e4777228-4be1-408d-b262-4dde8e2beeb4",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000073"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "7a090a35-51a1-4c42-84a1-88c21fbd9d9c",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000074"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Alien Language Comprehension"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You have a working knowledge of one alien language of your choice. You can convey simple ideas and concepts when speaking this language, and you understand the most commonly written phrases in this language, enough to be able to read signs or common labels in vehicles made by creatures who natively speak the language."
+                            },
+                            "id": "349d662e-df50-4941-ac47-cae233f25ff1",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000075"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "bc5fccff-4b74-42de-971e-46745ff48c4f",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000076"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": [
+                {
+                  "resource_id": "levelled_choice_text",
+                  "stats": {
+                    "options": {
+                      "value": "Working knowledge of 1 alien language"
+                    },
+                    "id": "0b43aa92-1ecd-4163-8eda-84775234ebdf",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000072"
+                    }
+                  }
+                }
+              ]
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "human_wayfarer",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000077"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "human",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000078"
+    }
+  }
+}

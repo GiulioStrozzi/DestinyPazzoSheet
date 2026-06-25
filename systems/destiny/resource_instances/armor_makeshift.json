@@ -1,0 +1,76 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Makeshift"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "medium"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 12
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "impose_stealth_disadvantage": {
+      "value": false
+    },
+    "required_strength": {
+      "value": 0
+    },
+    "description": {
+      "value": " Ghost memory: 4/1."
+    },
+    "has_max_bonus": {
+      "value": true
+    },
+    "max_bonus": {
+      "value": 2
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "99efb013-0b7a-42e1-b669-b11ca96d81aa",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000010"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 17
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "f0e32a63-4192-41c6-a832-2223177922b0",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000011"
+          }
+        }
+      }
+    },
+    "id": "makeshift",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000012"
+    }
+  }
+}

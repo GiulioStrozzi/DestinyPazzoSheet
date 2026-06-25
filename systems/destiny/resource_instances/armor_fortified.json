@@ -1,0 +1,70 @@
+{
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Fortified"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "heavy"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "base_ac": {
+      "value": 17
+    },
+    "modifier": {
+      "value": "none"
+    },
+    "impose_stealth_disadvantage": {
+      "value": true
+    },
+    "required_strength": {
+      "value": 15
+    },
+    "description": {
+      "value": " Ghost memory: 5/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "36b19e39-c6d7-4c04-9c22-74385a9cc1cd",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000031"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 65
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "e8526b79-1679-40e8-ba1c-f9b2c30bd6de",
+          "updated_at": {
+            "value": "2026-06-25T14:00:00.000032"
+          }
+        }
+      }
+    },
+    "id": "fortified",
+    "updated_at": {
+      "value": "2026-06-25T14:00:00.000033"
+    }
+  }
+}

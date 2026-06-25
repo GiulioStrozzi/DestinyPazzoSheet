@@ -1,0 +1,109 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Influencer"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Clout"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Your high follower count means you are well enough known to be recognized almost anywhere in the Last City, and very possibly by other Guardians off-world. For the most part your followers are adoring and excited to spot you. They will reliably approach you in public and ask to capture images of themselves with you, and very commonly they will offer you drinks, food, and supplies. You may even be able to ask them collectively for help or favors. However, maintaining this popularity is hard work: your followers expect frequent posts, and if you fail to keep the nets up to date or don't get enough engagement, your follower count may drop, reducing the scope of your influence."
+                    },
+                    "id": "94619b67-b88f-4b02-ac7f-363a1a4439fe",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000082"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "b48ed3a5-1ba5-4569-97a4-eb13995bd9ee",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000083"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": []
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "performance"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "8903d1ae-68a6-4436-93e8-ffd21f3f5d03",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000080"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "persuasion"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "c4b69b5b-f34f-4256-8e3a-434e445da771",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000081"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "id": "influencer",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000116"
+    }
+  }
+}

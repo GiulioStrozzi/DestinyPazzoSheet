@@ -1,0 +1,442 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "name": {
+      "value": "Psion"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "speed": {
+      "value": 25
+    },
+    "ability_score_increases": {
+      "value": [
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 2
+            },
+            "modifier_options": {
+              "value": [
+                "intelligence"
+              ]
+            },
+            "id": "4480e9ee-0bf3-4e26-93eb-0ede41a9d56f",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000184"
+            }
+          }
+        },
+        {
+          "resource_id": "ability_score_increase",
+          "stats": {
+            "value": {
+              "value": 1
+            },
+            "modifier_options": {
+              "value": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "id": "6aac5411-98b4-40a6-93df-6b4669fed11a",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000185"
+            }
+          }
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Psionic Telepathy"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "Psion telepathy allows you to communicate simple concepts with any intelligent creature without need for language, if the creature is within a number of feet equal to 5 times your level."
+                    },
+                    "id": "4e1a5215-98af-4c21-9b9a-d5b680bcb69e",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000187"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "3ac6be31-19d4-4ebf-a60e-fcba8057fada",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000188"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Naturally Stealthy"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+                    },
+                    "id": "c0ffa9ef-7759-456d-95c9-14abc59cfa42",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000189"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "24bc0bec-c4c9-46ca-944a-eeca42f569e7",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000190"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Psion Nimbleness"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You can move through the space of any creature that is of a larger size than you without it counting as difficult terrain. You can also take the Disengage action as a bonus action on your turn."
+                    },
+                    "id": "7825028b-0a9d-43a8-881d-8c6a1a757755",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000191"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "43681db9-6662-4808-b34b-adfcf43decd4",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000192"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Psionics"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You have a number of psionic points equal to your proficiency bonus (minimum 2). You can spend these psionic points to grant yourself certain benefits. When you complete a long rest, you regain all spent psionic points. The DC of your psionic abilities that cause saving throws is equal to 8 + your Intelligence modifier + your proficiency bonus."
+                    },
+                    "id": "d91bdb77-7e98-4886-a568-e9e66445b763",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000193"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "d8d0e2c8-9240-463d-b8b6-e843b0ac8ddb",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000194"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Ulurant"
+            },
+            "id": "b4200dfb-3d9a-4dc5-8cfd-da3640391695",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000186"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": []
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": []
+    },
+    "subraces": {
+      "value": [
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Soldier"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 25
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Keen Eye"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "If you make a ranged attack roll and miss, you can choose to re-roll your attack roll once. You must use the new roll, and you must complete a short or long rest before you can use this trait again."
+                            },
+                            "id": "7cc3087f-f09e-46e2-ba69-b42a5d0c605d",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000195"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "8027345f-5459-4050-8ac4-3bf3c2aa75bb",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000196"
+                    }
+                  }
+                },
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Soldier's Psionics"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You can spend your psionic points to cause any of the following effects.\n\n- Swift (1 psionic point): You double your movement until the end of your turn.\n- Reflexive (3 psionic points): If a creature causes you to make a Dexterity saving throw, you can spend psionic points to grant yourself advantage on that saving throw."
+                            },
+                            "id": "1046e39d-430b-4872-8481-672b8a823afb",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000197"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "dfb400c5-114e-428c-a91d-af7e65bfc3de",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000198"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "psion_soldier",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000199"
+            }
+          }
+        },
+        {
+          "resource_id": "race",
+          "stats": {
+            "name": {
+              "value": "Mind Flayer"
+            },
+            "source": {
+              "value": "destiny"
+            },
+            "speed": {
+              "value": 25
+            },
+            "ability_score_increases": {
+              "value": []
+            },
+            "traits": {
+              "value": [
+                {
+                  "resource_id": "feat",
+                  "stats": {
+                    "name": {
+                      "value": "Mind Flayer's Psionics"
+                    },
+                    "prerequisites": {
+                      "value": ""
+                    },
+                    "descriptions": {
+                      "value": [
+                        {
+                          "resource_id": "levelled_description",
+                          "stats": {
+                            "level": {
+                              "value": 1
+                            },
+                            "description": {
+                              "value": "You can spend your psionic points to cause any of the following effects.\n\n- Psionic Blast (1 psionic point): As an action you let loose a quick burst of psionic energy at a target within 5 feet of you. That target must make a Dexterity saving throw. On a failed save it takes 2d8 necrotic damage. On a success, it takes half as much. The damage increases to 3d8 at 5th level, 4d8 at 11th level, and 5d8 at 17th level.\n- Nova Rupture (3 psionic points): As an action you hurl a ball of psionic energy at a point you can see within 30 feet. All Medium or smaller creatures within 5 feet of that point must make a Strength saving throw. On a failed save they are shoved 20 feet in a direction of your choosing, which can be straight upward."
+                            },
+                            "id": "cf7ce97d-5f62-49a4-bd6f-cc853f1dc38e",
+                            "updated_at": {
+                              "value": "2026-06-25T12:00:00.000200"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "has_selectable_features": {
+                      "value": false
+                    },
+                    "id": "1a4d6755-91d7-417e-ba6f-734769487b0e",
+                    "updated_at": {
+                      "value": "2026-06-25T12:00:00.000201"
+                    }
+                  }
+                }
+              ]
+            },
+            "language_proficiencies": {
+              "value": []
+            },
+            "skill_proficiencies": {
+              "value": []
+            },
+            "armor_proficiencies": {
+              "value": []
+            },
+            "weapon_proficiencies": {
+              "value": []
+            },
+            "tool_proficiencies": {
+              "value": []
+            },
+            "id": "psion_mind_flayer",
+            "updated_at": {
+              "value": "2026-06-25T12:00:00.000202"
+            }
+          }
+        }
+      ]
+    },
+    "hair_color_selectable": {
+      "value": true
+    },
+    "eye_color_selectable": {
+      "value": true
+    },
+    "id": "psion",
+    "updated_at": {
+      "value": "2026-06-25T12:00:00.000203"
+    }
+  }
+}

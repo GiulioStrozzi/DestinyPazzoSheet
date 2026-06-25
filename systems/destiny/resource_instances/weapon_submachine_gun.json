@@ -1,0 +1,120 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Submachine Gun"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "submachine_gun"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": true
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d4"
+                    },
+                    "id": "1430f714-c43e-44a6-9ecd-aac88ca6b3c7",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000080"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "294976cb-dceb-4fd6-8b69-5cf5878a46f0",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000081"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 2/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 1250
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "948ac774-bd41-4135-a749-53d06cd562b1",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000082"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "43908239-0ec1-4166-8c50-bc8fbe42ed56",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000083"
+          }
+        }
+      }
+    },
+    "is_agile": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 6
+    },
+    "scope": {
+      "value": "10/15/30"
+    },
+    "range_band": {
+      "value": "close"
+    },
+    "is_automatic_fire": {
+      "value": true
+    },
+    "is_high_recoil": {
+      "value": true
+    },
+    "id": "submachine_gun",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000084"
+    }
+  }
+}

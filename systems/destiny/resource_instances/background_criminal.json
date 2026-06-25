@@ -1,0 +1,209 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Criminal"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Underworld Access"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You know at least one trustworthy contact in the criminal underbelly of the Sol system, and you can generally get in touch with this person easily. Your contact may be an insider in a crime syndicate, a purveyor of less-than-legal goods and services, or an infamous individual such as the Spider. You can almost always assume that working with your contact will come with a price, anything from plain glimmer to leveraging your talents for an objective the contact wishes to pursue."
+                    },
+                    "id": "550f8349-2f8e-4766-ad9f-a4b36259acc3",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000027"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "c725ca81-e519-4237-a014-cc5cf23582cc",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000028"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Pirate"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "As a spacefaring entrepreneur, your business is founded on one unshakeable principle: there's always something good to steal. You make your living by recognizing opportunities to acquire goods in transit at weak points in the supply chain. There are plenty of attractive targets in Cabal supply depots, Fallen caches, and other storehouses of humanity's enemies. You can tap into these resources, or stashes you've left in place. You probably also have access to jumpships and cargo ships belonging to your crew. You may also have knowledge of the location of a huge cache of loot."
+                    },
+                    "id": "980430d5-c5f8-4ec5-837c-13f4a89563fb",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000029"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "eeddc5e9-9a18-4e70-879a-9e6ab848d131",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000030"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Smuggler"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You fill the economic niche created by scarcity and demand for goods not normally available in the open market. Your underworld contact is a (relatively) reliable fence who's willing to deal in stolen or contraband wares. You know how to acquire anything, and if there ever is something you don't know how to find, you know someone who does. You have a ready aptitude for finding places to keep things hidden, including on your own person. If you have a jumpship, you are able to rig it with concealed cargo compartments."
+                    },
+                    "id": "2f026e36-26a7-44c2-8e36-539844239bce",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000031"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "e4f2b84b-0887-42cb-bb09-ce316c45e999",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000032"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "One alien language of your choice"
+            },
+            "id": "7760ff2c-14db-4919-b349-3fcea7af4f13",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000025"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "deception"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "45b71b55-baa2-4a53-be8a-13b62ccb10c2",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000023"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "stealth"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "c07df5db-513b-4372-87a5-72ee54de90c0",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000024"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Thieves' toolkit"
+            },
+            "id": "f4067222-ea8b-4072-b8a1-899a4bd310e4",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000026"
+            }
+          }
+        }
+      ]
+    },
+    "id": "criminal",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000108"
+    }
+  }
+}

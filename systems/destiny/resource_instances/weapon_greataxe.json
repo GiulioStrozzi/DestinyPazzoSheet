@@ -1,0 +1,105 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Greataxe"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "greataxe"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d12"
+                    },
+                    "id": "616e4e6a-59ea-4f94-875b-4756857ce925",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000011"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "slashing"
+            },
+            "id": "2e994c91-5da3-4313-b502-4fc0f5cdafad",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000012"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 3/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 2250
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "e3d574e4-3fb2-4763-ac61-c4a342f566a1",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000013"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "58cde4c6-6e18-4e55-ade7-14e0a82fcfad",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000014"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_heavy": {
+      "value": true
+    },
+    "id": "greataxe",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000015"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Sidearm"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "sidearm"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": true
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d6"
+                    },
+                    "id": "3a0976aa-e501-4b5a-8c51-fe4f388346f0",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000075"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "kinetic"
+            },
+            "id": "4392493e-c872-4e21-a7b3-b77d0b79b1f6",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000076"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Ghost memory: 2/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 1250
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "344fb01c-7fe3-48af-9fe1-d12052386a79",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000077"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "54478b98-89ab-4acf-be08-3fb344581e4f",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000078"
+          }
+        }
+      }
+    },
+    "is_agile": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 6
+    },
+    "scope": {
+      "value": "20/30/40"
+    },
+    "range_band": {
+      "value": "close"
+    },
+    "id": "sidearm",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000079"
+    }
+  }
+}

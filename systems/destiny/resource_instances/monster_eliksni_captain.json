@@ -1,0 +1,224 @@
+{
+  "resource_id": "monster",
+  "stats": {
+    "name": {
+      "value": "Captain"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "tag": {
+      "value": ""
+    },
+    "armor_class": {
+      "value": 15
+    },
+    "hit_points": {
+      "value": {
+        "resource_id": "dice_roll",
+        "stats": {
+          "dice_amount": {
+            "value": 9
+          },
+          "dice_type": {
+            "value": "d8"
+          },
+          "constant": {
+            "value": 18
+          },
+          "id": "6b6cdf55-e649-424e-a0d4-bd571e464c58",
+          "updated_at": {
+            "value": "2026-06-25T16:00:00.000026"
+          }
+        }
+      }
+    },
+    "cr": {
+      "value": "cr_3"
+    },
+    "xp": {
+      "value": 700
+    },
+    "speed": {
+      "value": 30
+    },
+    "strength_score": {
+      "value": 16
+    },
+    "dexterity_score": {
+      "value": 12
+    },
+    "constitution_score": {
+      "value": 15
+    },
+    "intelligence_score": {
+      "value": 14
+    },
+    "wisdom_score": {
+      "value": 14
+    },
+    "charisma_score": {
+      "value": 14
+    },
+    "skills": {
+      "value": "Athletics +6, Intimidation +5, Perception +5, and any two others"
+    },
+    "senses": {
+      "value": "darkvision 120 ft., passive Perception 14"
+    },
+    "languages": {
+      "value": "Eliksni, understands some City Common"
+    },
+    "resistances": {
+      "value": ""
+    },
+    "immunities": {
+      "value": ""
+    },
+    "vulnerabilities": {
+      "value": ""
+    },
+    "size": {
+      "value": "medium"
+    },
+    "type": {
+      "value": "eliksni"
+    },
+    "alignment": {
+      "value": "unaligned"
+    },
+    "traits": {
+      "value": [
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Energy Shields"
+            },
+            "trait_description": {
+              "value": "This creature has an energy shield pool of 39 (6d8+12) arc. Damage is applied to its energy shields before its health."
+            },
+            "id": "c7a06e82-300e-4dae-a40e-86a7a66f116c",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000025"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_trait",
+          "stats": {
+            "trait_name": {
+              "value": "Vicious"
+            },
+            "trait_description": {
+              "value": "Once on each of the captain's turns, it can increase the damage of a successful weapon attack by 7 (2d6), choosing to do so after its attack roll but before rolling damage."
+            },
+            "id": "a8af8cf3-cbb6-4cf9-815d-1d8706f0c669",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000020"
+            }
+          }
+        }
+      ]
+    },
+    "actions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Multiattack"
+            },
+            "action_description": {
+              "value": "The captain makes two weapon attacks."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "4d18d4dc-9dbb-459d-a83b-b1b1e5ebb24c",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000021"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Shock Rifle"
+            },
+            "action_description": {
+              "value": "Firearm Weapon Attack: +6 to hit, scope 15/120/240 (medium), one target. Hit: 7 (1d8+3) arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "03217c23-3fc7-48d9-a4a4-f995be078653",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000022"
+            }
+          }
+        },
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Shock Smallsword"
+            },
+            "action_description": {
+              "value": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) arc damage."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "1e2ae7a4-aeb7-49ce-a461-a92ec26d8b59",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000023"
+            }
+          }
+        }
+      ]
+    },
+    "reactions": {
+      "value": [
+        {
+          "resource_id": "monster_action",
+          "stats": {
+            "action_name": {
+              "value": "Blink (3/brief rest)"
+            },
+            "action_description": {
+              "value": "If subject to a Strength or Dexterity saving throw, or an attack from a source it can perceive, the captain can teleport to an unoccupied space within 10 feet, taking all equipment with it. Doing so grants disadvantage on the attack, or advantage on the captain's saving throw."
+            },
+            "action_type": {
+              "value": "none"
+            },
+            "id": "a047d5b6-dc2e-4a57-b2bb-6f504b72225f",
+            "updated_at": {
+              "value": "2026-06-25T16:00:00.000024"
+            }
+          }
+        }
+      ]
+    },
+    "bonus_actions": {
+      "value": []
+    },
+    "legendary_actions": {
+      "value": []
+    },
+    "climb_speed": {
+      "value": 30
+    },
+    "strength_saving_throw_modifier": {
+      "value": 6
+    },
+    "dexterity_saving_throw_modifier": {
+      "value": 4
+    },
+    "id": "eliksni_captain",
+    "updated_at": {
+      "value": "2026-06-25T16:00:00.000027"
+    }
+  }
+}

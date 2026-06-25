@@ -1,0 +1,172 @@
+{
+  "resource_id": "background",
+  "stats": {
+    "name": {
+      "value": "Freelancer"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "gold_pieces": {
+      "value": 0
+    },
+    "features": {
+      "value": [
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Feature: Agent for Hire"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "You're always on the prowl for a high-scoring job, and you know how to find such jobs throughout the Sol system using a web of contacts, most of which you can only trust as far as you can throw. These jobs are anything from Vanguard strike operations to bounties on wanted targets, including other Guardians. You always know what you can do to get the biggest payday, and you can generally make sure you're at the top of the list of candidates, even if your means aren't always aboveboard."
+                    },
+                    "id": "9f8e1d9f-03b2-4345-b044-a846f529286e",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000069"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "052ec6f9-18a0-4760-a508-f45e0c1e0b63",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000070"
+            }
+          }
+        },
+        {
+          "resource_id": "feat",
+          "stats": {
+            "name": {
+              "value": "Variant Feature: Renegade"
+            },
+            "prerequisites": {
+              "value": ""
+            },
+            "descriptions": {
+              "value": [
+                {
+                  "resource_id": "levelled_description",
+                  "stats": {
+                    "level": {
+                      "value": 1
+                    },
+                    "description": {
+                      "value": "As a renegade, you have taken the steps to swear off working with the Tower and the Last City. Your goals should still fall along the lines of opposing the Darkness; you aren't a Dredgen, after all. Though the Vanguard may not hold you in high regard, they might yet still reach out to you in times of need. You also have one trustworthy contact who can give you reliable information on the underworld of the Sol system and who can get you into and out of the Last City without being noticed."
+                    },
+                    "id": "120a53d3-3d6f-4d79-8e75-e53b69f7b3c6",
+                    "updated_at": {
+                      "value": "2026-06-25T13:00:00.000071"
+                    }
+                  }
+                }
+              ]
+            },
+            "has_selectable_features": {
+              "value": false
+            },
+            "id": "017fdca2-63d5-4688-bf85-afecb9c6d97a",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000072"
+            }
+          }
+        }
+      ]
+    },
+    "language_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "One alien language of your choice"
+            },
+            "id": "0afd1ca1-7ec8-481a-bc5a-2f2280230776",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000067"
+            }
+          }
+        }
+      ]
+    },
+    "skill_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "perception"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "7e73aca8-abf8-488e-8686-a6dfaf38b930",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000065"
+            }
+          }
+        },
+        {
+          "resource_id": "levelled_skill_proficiency",
+          "stats": {
+            "options": {
+              "value": [
+                "persuasion"
+              ]
+            },
+            "is_expertise": {
+              "value": false
+            },
+            "id": "e12389f8-0a1f-4b4c-80ae-fb7478175298",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000066"
+            }
+          }
+        }
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "weapon_proficiencies": {
+      "value": []
+    },
+    "tool_proficiencies": {
+      "value": [
+        {
+          "resource_id": "levelled_choice_text",
+          "stats": {
+            "options": {
+              "value": "Medical toolkit"
+            },
+            "id": "b26fed5b-bf38-47fe-89dc-e7fdbc2d6d69",
+            "updated_at": {
+              "value": "2026-06-25T13:00:00.000068"
+            }
+          }
+        }
+      ]
+    },
+    "id": "freelancer",
+    "updated_at": {
+      "value": "2026-06-25T13:00:00.000114"
+    }
+  }
+}

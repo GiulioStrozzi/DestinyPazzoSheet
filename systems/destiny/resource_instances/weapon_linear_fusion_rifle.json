@@ -1,0 +1,123 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Linear Fusion Rifle"
+    },
+    "source": {
+      "value": "destiny"
+    },
+    "type": {
+      "value": "linear_fusion_rifle"
+    },
+    "attack_ability": {
+      "value": "dexterity"
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 2
+                    },
+                    "dice_type": {
+                      "value": "d6"
+                    },
+                    "id": "da95c257-fedd-4043-ae61-b9700fbe0321",
+                    "updated_at": {
+                      "value": "2026-06-25T15:00:00.000105"
+                    }
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "arc"
+            },
+            "id": "6ac40c44-3bcf-4487-b853-cdeed81e0a1d",
+            "updated_at": {
+              "value": "2026-06-25T15:00:00.000106"
+            }
+          }
+        }
+      ]
+    },
+    "description": {
+      "value": " Elemental: deals arc, solar, or void damage, chosen at the weapon's creation (shown here as arc). Ghost memory: 4/1."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "value": {
+            "value": 3250
+          },
+          "unit": {
+            "value": "glimmer"
+          },
+          "id": "2a4837f9-dd12-4175-8bff-cd52e6a6ce0f",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000107"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          },
+          "id": "cea8e173-4fb8-4ffb-be5a-7791d7f1d2e4",
+          "updated_at": {
+            "value": "2026-06-25T15:00:00.000108"
+          }
+        }
+      }
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_firearm": {
+      "value": true
+    },
+    "shot_capacity": {
+      "value": 3
+    },
+    "scope": {
+      "value": "15/120/340"
+    },
+    "range_band": {
+      "value": "long"
+    },
+    "is_energy_projectiles": {
+      "value": true
+    },
+    "is_elemental": {
+      "value": true
+    },
+    "is_loading": {
+      "value": true
+    },
+    "id": "linear_fusion_rifle",
+    "updated_at": {
+      "value": "2026-06-25T15:00:00.000109"
+    }
+  }
+}
